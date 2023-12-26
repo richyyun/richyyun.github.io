@@ -21,7 +21,7 @@
     letter-spacing: 0.3em;
 }
 
-.topnav a.active{
+.topnav a .active{
     background-color: white;
     color: black
 }
