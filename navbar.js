@@ -5,13 +5,20 @@ Functions for interactive navigation bar
 function activate(){
     
     // Get URL 
-    var url = window.location.href;
+    var url = window.location.href.split("/");
+    var currentPage = url[url.length - 1];
 
-    // Apply to each "a" tag (menu items)
-    $(".navbar a").each(function(){
-        if(url == (this.href)){
-            $(this).addClass('active');
-        }
-    })
+    var nav = document.getElementsByClass(".topnav a");
+
+    for (i; i<nav.length; i++){
+        var name = nav[i].href.split("/");
+        name = name[name.length - 1];
+        nav[i].addClass("active");
+       // if (name == "index.html" && currentPage == ""){
+
+      //  }
+
+    }
+
 
 }
