@@ -1,7 +1,7 @@
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 
-#body .dark {
+.dark {
     background-color: #142a38;
     color:white;
 }
