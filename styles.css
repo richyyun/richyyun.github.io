@@ -1,9 +1,9 @@
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 
-.bg-dark {
-    background-color:black !important;
-    color:white !important;
+.dark {
+    background-color: #142a38;
+    color:white;
 }
 
 @import "bootstrap";
