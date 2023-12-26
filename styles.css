@@ -1,6 +1,3 @@
-@import "bootstrap/functions";
-@import "bootstrap/variables";
-
 .dark {
     background-color: #142a38;
     color:white;
@@ -13,11 +10,10 @@
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    background-color: transparent;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
-
-@import "bootstrap";
