@@ -1,1 +1,6 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
 .bg-dark {color:black;}
+
+@import "bootstrap";
