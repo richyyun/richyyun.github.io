@@ -7,9 +7,6 @@
 }
 
 #nav .topnav {
-    background-color: transparent;
-    overflow: hidden;
-    display: flex;
     justify-content: center;
     color: white;
 }
