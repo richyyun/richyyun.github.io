@@ -1,8 +1,10 @@
-.dark {
+/* Main body */
+#body .dark {
     background-color: #142a38;
     color:white;
 }
 
+/* Navigation bar */
 .topnav {
     background-color: transparent;
     overflow: hidden; 
