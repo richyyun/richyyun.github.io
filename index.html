@@ -9,23 +9,13 @@
     </head>
     <body class="dark">
         
+        <!-- Navigation bar -->
         <header>
             <div class="topnav">
-                <a href="./index.html">HOME</a>
+                <a href="./index.html">index</a>
                 <a href="./about.html">ABOUT</a>
             </div>
         </header>
-
-        <!--
-        <header>
-            <div class="topnav">
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-    
-            </div>
-        </header>
-        -->
 
         <!-- Begin page content -->
         <main role="main" class="container">
@@ -34,4 +24,15 @@
         </main>
 
     </body>
+
+    <script>
+        $(function(){
+            $('a').each(function(){
+                if ($(this).prop('href') == window.location.href) {
+                    $(this).addClass('active');
+                }
+            });
+        });
+    </script>
+
 </html>
