@@ -13,7 +13,7 @@ function activate(){
     for (let i=0; i<nav.length; i++){
         var name = nav[i].href.split("/");
         name = name[name.length - 1];
-        nav[i].classList.add("active");
+        nav[i].addClass("active");
        // if (name == "index.html" && currentPage == ""){
 
       //  }
