@@ -36,11 +36,11 @@
 }
 
 .topnav a:hover{
-    background-color: var(--text);
-    color: var(--bg);
+    animation-name: emphasize;
+    animation-timing-function: ease;
 }
 
-.active{
-    background-color:var(--text);
-    color: var(--bg)
+@keyframes emphasize {
+    100% {font-size: 22px;}
 }
+
