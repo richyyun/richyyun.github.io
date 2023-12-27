@@ -37,10 +37,11 @@
 
 .topnav a:hover{
     animation-name: emphasize;
+    animation-duration: 1s;
     animation-timing-function: ease;
 }
 
 @keyframes emphasize {
-    100% {font-size: 22px;}
+    50% {font-size: 30px;}
 }
 
