@@ -1,6 +1,11 @@
+/* Variables */
+:root {
+    --charcoal: #142a38;
+}
+
 /* Main body */
 .dark {
-    background-color: #142a38;
+    background-color: var(--charcoal);
     color:white;
 }
 
@@ -23,7 +28,12 @@
     letter-spacing: 0.3em;
 }
 
+.topnav a:hover{
+    background-color: white;
+    color: var(--charcoal);
+}
+
 .active{
     background-color: white;
-    color: black
+    color: var(--charcoal)
 }
