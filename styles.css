@@ -28,11 +28,13 @@
     background-color: transparent;
     color: white;
     text-align: center;
-    padding: 30px 30px;
+    padding-left: 60px; 
+    padding-right: 60px;
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 0.3em;
     font-weight: bold;
+    
 }
 
 .topnav a:hover{
