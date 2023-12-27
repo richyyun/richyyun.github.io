@@ -1,9 +1,12 @@
 /* Defining row */
 .row {
     display: flex;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    align-items: center;
     justify-content: center;
 }
-
 
 /* Define how the name and title look */
 .text {
