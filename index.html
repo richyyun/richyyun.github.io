@@ -10,12 +10,21 @@
         
         <!-- Navigation bar -->
         <header>
+            <div id="navigation"></div>
+            <script src="jquery-3.6.0.min.js"></script>
+            <script>
+                $(function() {
+                    $("#navigation").load("navigation.html");
+                });
+            </script>
+            <!--
             <div class="topnav">
                 <a href="./index.html">HOME</a>
                 <a href="./about.html">ABOUT</a>
                 <a href="./about.html">PROJECTS</a>
                 <a href="./about.html">LINKS</a>
             </div>
+        -->
         </header>
 
         <!-- Begin page content -->
