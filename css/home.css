@@ -1,0 +1,29 @@
+/* Defining row */
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Define how the name and title look */
+.name {
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+}
+
+.name:before{
+    height:30px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    border-left:3px solid white;
+    border-right:3px solid white;
+    content: " ";
+}
+
+.title {
+    text-align: right;
+    letter-spacing: 0.2em;
+    line-height: 1.5em; 
+}
