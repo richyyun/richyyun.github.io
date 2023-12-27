@@ -1,12 +1,13 @@
 /* Variables */
 :root {
-    --charcoal: #142a38;
+    --bg: #142a38;
+    --text: white;
 }
 
 /* Main body */
 .dark {
-    background-color: var(--charcoal);
-    color:white;
+    background-color: var(--bg);
+    color: var(--text);
 }
 
 /* Navigation bar */
@@ -14,7 +15,7 @@
     background-color: transparent;
     overflow: hidden; 
     display: flex;
-    justify-content: center;
+    justify-content: space-around; /*center;*/
 }
 
 .topnav a {
@@ -29,11 +30,11 @@
 }
 
 .topnav a:hover{
-    background-color: white;
-    color: var(--charcoal);
+    background-color: var(--text);
+    color: var(--bg);
 }
 
 .active{
-    background-color: white;
-    color: var(--charcoal)
+    background-color:var(--text);
+    color: var(--bg)
 }
