@@ -6,24 +6,40 @@
 
 
 /* Define how the name and title look */
-.name {
-    letter-spacing: 0.2em;
-    line-height: 1.5em;
-}
-
-.name:before{
-    height:30px;
-    position:absolute;
-    top:0px;
-    left:0px;
-    right:0px;
-    border-left:3px solid white;
-    border-right:3px solid white;
-    content: " ";
-}
-
-.title {
-    text-align: right;
-    letter-spacing: 0.2em;
+.text {
+    letter-spacing: 0.2em ;
     line-height: 1.5em; 
+}
+
+.borderleft {
+    --b: 0.1em;   /* thickness of the border */
+    --c: white;   /* color of the border */
+    --w: 1em;  /* width of border */
+
+    border: var(--b) solid #0000; /* space for the border */
+    --_g: #0000 90deg,var(--c) 0;
+    --_p: var(--w) var(--w) border-box no-repeat;
+    background:
+    conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p);
+
+    /*Irrelevant code*/  
+    font-size:30px;
+    padding-left: 0.25em;
+}
+
+.borderright {
+    --b: 0.1em;   /* thickness of the border */
+    --c: white;   /* color of the border */
+    --w: 1em;  /* width of border */
+
+    border: var(--b) solid #0000; /* space for the border */
+    --_g: #0000 90deg,var(--c) 0;
+    --_p: var(--w) var(--w) border-box no-repeat;
+    background:
+        conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
+
+    /*Irrelevant code*/  
+    font-size:30px;
+    padding-left: 0.25em;
+    text-align: right;
 }
