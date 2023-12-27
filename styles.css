@@ -15,7 +15,7 @@
     background-color: transparent;
     overflow: hidden; 
     display: flex;
-    justify-content: space-around; /*center;*/
+    justify-content: center;
 }
 
 .topnav a {
@@ -23,7 +23,7 @@
     background-color: transparent;
     color: white;
     text-align: center;
-    padding: 20px 20px;
+    padding: 30px 30px;
     text-decoration: none;
     font-size: 17px;
     letter-spacing: 0.3em;
