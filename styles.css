@@ -4,6 +4,11 @@
     --text: white;
 }
 
+/* Apply to all */
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 /* Main body */
 .dark {
     background-color: var(--bg);
