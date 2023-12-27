@@ -1,7 +1,7 @@
 /*
 Functions for interactive navigation bar
 */
-var nav = document.getElements("a");
+var nav = document.getElementsByTagName("a");
 nav[0].classList.add("active")
 
 /*
