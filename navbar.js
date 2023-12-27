@@ -8,7 +8,7 @@ function activate(){
     var url = window.location.href.split("/");
     var currentPage = url[url.length - 1];
 
-    var nav = document.document.getElementById('topnav').children;
+    var nav = document.getElementById('topnav').children;
 
     for (let i=0; i<nav.length; i++){
         var name = nav[i].href.split("/");
