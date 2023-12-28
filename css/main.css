@@ -52,10 +52,3 @@
         transform: translateY(-5%);
     }
 }
-
-
-/* Override navigation for home */
-.topnav .homenav{
-    margin-top: -10vh;
-}
-

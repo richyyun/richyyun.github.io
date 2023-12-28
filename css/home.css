@@ -1,3 +1,10 @@
+/* Top nav */
+/* Override navigation for home */
+.homenav{
+    color: black;
+}
+
+
 /* Defining row */
 .row {
     display: flex;
