@@ -4,25 +4,32 @@
 }
 
 .textdiv{
-    position: relative;
+    position: absolute;
     width: 50vw;
-    height: 20vh;
     padding:0.5em; 
-    top: 10vh;
-    left: 10vw;
+    top: 30vh;
+    left: -10vw;
     background-color: white;
     color: black;
-    font-size: 25px;
+    padding-left: 20vw;
     border-style: solid;
     border-color: var(--bg);
     z-index: 2;
     border-radius: 1em;
 }
 
+.texthead{
+    font-size: 30px;
+}
+
+.textbody{
+    font-size: 30px;
+}
+
 .imagediv{
-    width: 50vw;
-    position:relative;
-    top: -025vh;
+    width: 60vw;
+    position: absolute;
+    top: 10vh;
     left: 50vw;
     z-index: 1;
     border-radius:2em;
