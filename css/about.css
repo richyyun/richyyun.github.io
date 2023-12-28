@@ -8,9 +8,11 @@
     height: 20vh;
     background-color: white;
     color: black;
-    font-size: 15px;
+    font-size: 25px;
     padding-top: 40vh;
     padding-left: 10vw;
+    border-style: solid;
+    border-color: var(--bg);
 }
 
 .imagediv{
