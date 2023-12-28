@@ -1,5 +1,6 @@
 .wrapper{
     overflow-y: visible;
+    overflow-x: visible;
 }
 
 .imagediv{
