@@ -21,7 +21,7 @@
     overflow: hidden; 
     display: flex;
     justify-content: center;
-    height: 10vh;
+    height: 20vh;
     width: 100vw;
 }
 
@@ -37,7 +37,7 @@
     font-size: 20px;
     letter-spacing: 0.3em;
     font-weight: bold;
-    
+    width: 100vw;
 }
 
 .topnav a:hover{
@@ -52,4 +52,6 @@
         transform: translateY(-7.5%);
     }
 }
+
+
 
