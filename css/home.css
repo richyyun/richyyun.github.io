@@ -7,7 +7,7 @@
 .row {
     display: flex;
     position: absolute;
-    height: 60%;
+    height: 65%;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -75,12 +75,12 @@
 
 @keyframes slideleft {
     100% {
-        transform: translateX(-15em);
+        transform: translateX(-20em);
     }
 }
 
 @keyframes slideright {
     100% {
-        transform: translateX(15em);
+        transform: translateX(20em);
     }
 }
