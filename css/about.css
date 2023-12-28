@@ -2,8 +2,7 @@
     width: 50vw;
     padding-top: 10vh;
     padding-left: 10vw;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: scroll;
 }
 
 .textdiv{
@@ -12,6 +11,5 @@
     bottom:-150px;
     left:150px;
     border-style:solid;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: scroll;
 }
