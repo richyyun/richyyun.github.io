@@ -52,19 +52,20 @@
     padding-bottom: var(--padbot);
 }
 
-.move{
+.moveleft{
+    animation-name: slideleft;
     animation-delay: 1s;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
 }
 
-.move .leftdir{
-    animation-name: slideleft;
-}
-
-.move .rightdir{
+.moveright{
     animation-name: slideright;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
 }
 
 @keyframes slideleft {
