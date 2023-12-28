@@ -46,6 +46,7 @@
 
     /*Irrelevant code*/  
     font-size: var(--fs);
+    text-align: right;
     padding-right: 0.3em;
     padding-top: var(--padtop);
     padding-bottom: var(--padbot);
