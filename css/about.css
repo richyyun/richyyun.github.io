@@ -42,3 +42,27 @@ br {
     content: "";        /* clears default height */
     margin-top: 1vw;    /* change this to whatever height you want it */
 }
+
+/* For links + icons */
+.row {
+    display: flex;
+    position: relative;
+    top: 10vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience{
+    width: 20vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.icon{
+
+}
+
+.explanation{
+    
+}
