@@ -1,6 +1,6 @@
 /* Override navigation */
-.topnav{
-    color:chartreuse !important;
+.topnav .home{
+    color:chartreuse;
 }
 
 /* Defining row */
