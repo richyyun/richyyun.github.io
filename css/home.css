@@ -46,3 +46,32 @@
     padding-left: 0.25em;
     text-align: right;
 }
+
+
+.moveleft {
+    animation-name: slideleft;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideleft {
+    100% {
+        transform: translateX(-10em);
+    }
+}
+
+.moveright {
+    animation-name: slideright;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideright {
+    100% {
+        transform: translateX(10em);
+    }
+}
