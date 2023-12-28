@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     height: 20vh;
-    width: 100vw;
+    width: 80vw;
 }
 
 .topnav a {
@@ -37,7 +37,6 @@
     font-size: 20px;
     letter-spacing: 0.3em;
     font-weight: bold;
-    width: 100vw;
 }
 
 .topnav a:hover{
