@@ -24,11 +24,6 @@
     width: 100vw;
 }
 
-/* Override navigation */
-.topnav .padded{
-    padding-bottom:1em;
-}
-
 /* Each menu item */
 .topnav a {
     float: left;
@@ -38,6 +33,7 @@
     padding-left: 3em; 
     padding-right: 3em;
     padding-top: 1em;
+    padding-bottom: 1em;
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 0.3em;
