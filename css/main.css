@@ -24,6 +24,11 @@
     width: 100vw;
 }
 
+/* Override navigation */
+.topnav .padded{
+    padding-bottom:1em;
+}
+
 /* Each menu item */
 .topnav a {
     float: left;
