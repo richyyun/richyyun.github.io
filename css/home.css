@@ -75,12 +75,12 @@
 
 @keyframes slideleft {
     100% {
-        transform: translateX(-20em);
+        transform: translateX(-18em);
     }
 }
 
 @keyframes slideright {
     100% {
-        transform: translateX(20em);
+        transform: translateX(18em);
     }
 }
