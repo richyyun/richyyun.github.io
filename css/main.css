@@ -30,15 +30,13 @@
     background-color: transparent;
     color: white;
     text-align: center;
-    padding-left: 60px; 
-    padding-right: 60px;
-    padding-top: 30px;
+    padding-left: 3em; 
+    padding-right: 3em;
+    padding-top: 1em;
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 0.3em;
     font-weight: bold;
-    border-style: none solid none solid;
-    border-width: 0.01em;
 }
 
 .topnav a:hover{
