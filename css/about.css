@@ -1,6 +1,7 @@
 .imagediv{
-    content: url("assets/SoneraMSR.png");
-    width: 50vw;
+    width: 30vw;
+    padding-top: 10vh;
+    padding-left: 10vw;
 }
 
 .textdiv{
