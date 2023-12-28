@@ -2,7 +2,7 @@
 .row {
     display: flex;
     position: absolute;
-    height: 65%;
+    height: 60%;
     width: 100%;
     align-items: center;
     justify-content: center;
