@@ -25,6 +25,13 @@
     width: 100vw;
 }
 
+/* Wrapper for each a element so we can apply borders / etc. without applying hover to the whole thing*/
+.wrapper{
+    border-style: none solid none solid;
+    border-width: 0.01em;
+}
+
+/* Each menu item */
 .topnav a {
     float: left;
     background-color: transparent;
