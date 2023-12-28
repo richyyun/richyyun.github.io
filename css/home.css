@@ -2,12 +2,13 @@
 /* Override navigation for home */
 .homenav{
     position: abosolute;
-    top: -10vh;
+    margin-top: -10vh;
     animation-name: dropdown;
     animation-delay: 2s;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
+    overflow: hidden;
 }
 
 @keyframes dropdown {
