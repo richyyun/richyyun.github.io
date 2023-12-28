@@ -48,7 +48,7 @@
 
 @keyframes emphasize {
     100% {
-        transform: translateY(-7.5%);
+        transform: translateY(-5%);
     }
 }
 
