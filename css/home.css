@@ -1,6 +1,7 @@
 /* Top nav */
 /* Override navigation for home */
 .homenav{
+    margin-top: -100%;
     animation-name: dropdown;
     animation-delay: 1s;
     animation-duration: 1s;
@@ -9,11 +10,8 @@
 }
 
 @keyframes dropdown {
-    0% {
-        transform: translateY(-100%);
-    }
     100% {
-        transform: translateY(0%);
+        transform: translateY(100%);
     }
 }
 
