@@ -13,14 +13,16 @@
     padding-left: 10vw;
     border-style: solid;
     border-color: var(--bg);
-    z-index: 1;
+    z-index: 2;
 }
+
+.text
 
 .imagediv{
     width: 50vw;
     position:relative;
     bottom: 40vh;
     left: 40vw;
-    z-index: 0;
+    z-index: 1;
 }
 
