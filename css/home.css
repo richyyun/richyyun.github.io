@@ -21,7 +21,8 @@
 .row {
     display: flex;
     position: absolute;
-    height: 75%;
+    top: 10vh;
+    height: 70%;
     width: 100%;
     align-items: center;
     justify-content: center;
