@@ -60,9 +60,22 @@ br {
 }
 
 .icon{
+    width: 20vw;
+    background-repeat: no-repeat;
+}
 
+.sonera{
+    background-image: url()
+}
+
+.fetz{
+    background-image: url("assets/Neurochip.jpg")
+}
+
+.nicolelis{
+    background-image: url("assets/RatNeuro.png")
 }
 
 .explanation{
-    
+
 }
