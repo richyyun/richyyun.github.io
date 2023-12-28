@@ -1,7 +1,8 @@
 .imagediv{
-    width: 30vw;
+    width: 50vw;
     padding-top: 10vh;
     padding-left: 10vw;
+    overflow: auto;
 }
 
 .textdiv{
@@ -10,4 +11,5 @@
     bottom:-150px;
     left:150px;
     border-style:solid;
+    overflow: auto;
 }
