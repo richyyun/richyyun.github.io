@@ -3,18 +3,20 @@
     overflow-x: visible;
 }
 
-.imagediv{
-    width: 50vw;
-    padding-top: 10vh;
-    padding-left: 10vw;
-    overflow-y: visible;
-}
-
 .textdiv{
     width: 50vw;
-    position:relative;
-    bottom:-150px;
-    left:150px;
-    border-style:solid;
-    overflow-y: visible;
+    height: 20vh;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding-top: 40vh;
+    padding-left: 10vw;
 }
+
+.imagediv{
+    width: 50vw;
+    position:relative;
+    bottom: 40vh;
+    left: 40vw;
+}
+
