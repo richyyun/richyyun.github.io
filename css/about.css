@@ -13,6 +13,7 @@
     padding-left: 10vw;
     border-style: solid;
     border-color: var(--bg);
+    z-index: 1;
 }
 
 .imagediv{
@@ -20,5 +21,6 @@
     position:relative;
     bottom: 40vh;
     left: 40vw;
+    z-index: 0;
 }
 
