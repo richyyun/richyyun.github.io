@@ -55,25 +55,24 @@ br {
 
 .experience{
     width: 20vw;
+    height: 10vh;
     padding-left: 10vw;
     padding-right: 10vw;
 }
 
 .icon{
     width: 20vw;
-    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 10vw;
 }
 
 .sonera{
-    background-image: url()
 }
 
 .fetz{
-    background-image: url("../assets/Neurochip.jpg")
 }
 
 .nicolelis{
-    background-image: url("../assets/RatNeuro.png")
 }
 
 .explanation{
