@@ -21,17 +21,17 @@
 }
 
 .text {
-    letter-spacing: 0.2em ;
+    letter-spacing: 0.2em;
     line-height: 1.5em; 
 }
 
 .borderleft {
-
-    border: var(--b) solid #0000;   /* space for the border */
+    /* Set space for border */  
+    border: var(--b) solid #0000;   
     background:
     conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p);
 
-    /*Other parameters*/  
+    /* Other parameters */  
     font-size: var(--fs);
     padding-left: 0.55em;
     padding-top: var(--padtop);
@@ -39,12 +39,12 @@
 }
 
 .borderright {
-
-    border: var(--b) solid #0000; /* space for the border */
+    /* Set space for border */  
+    border: var(--b) solid #0000; 
     background:
         conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
 
-    /*Irrelevant code*/  
+    /* Other parameters */  
     font-size: var(--fs);
     text-align: right;
     padding-right: 0.3em;
@@ -52,26 +52,25 @@
     padding-bottom: var(--padbot);
 }
 
-.moveleft {
-    animation-name: slideleft;
+.move{
     animation-delay: 1s;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
+}
+
+.move .left{
+    animation-name: slideleft;
+}
+
+.move .right{
+    animation-name: slideright;
 }
 
 @keyframes slideleft {
     100% {
         transform: translateX(-15em);
     }
-}
-
-.moveright {
-    animation-name: slideright;
-    animation-delay: 1s;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
 }
 
 @keyframes slideright {
