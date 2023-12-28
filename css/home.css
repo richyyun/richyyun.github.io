@@ -17,6 +17,8 @@
     --_g: #0000 90deg,var(--c) 0;
     --_p: var(--w) var(--w) border-box no-repeat;
     --dist: 15em;
+    --padbot: 0.25em;
+    --padtop: 0.25em;
 }
 
 .text {
@@ -33,7 +35,8 @@
     /*Other parameters*/  
     font-size: var(--fs);
     padding-left: 0.55em;
-    padding-top: 0.25em;
+    padding-top: var(--padtop);
+    padding-bottom: var(--padbot);
 }
 
 .borderright {
@@ -45,7 +48,8 @@
     /*Irrelevant code*/  
     font-size: var(--fs);
     padding-right: 0.3em;
-    padding-bottom: 0.25em;
+    padding-top: var(--padtop);
+    padding-bottom: var(--padbot);
 }
 
 .moveleft {
