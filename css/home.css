@@ -2,7 +2,7 @@
 .row {
     display: flex;
     position: absolute;
-    height: 60%;
+    height: 55%;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -59,11 +59,11 @@
     animation-fill-mode: forwards;
 }
 
-.move .left{
+.move .leftdir{
     animation-name: slideleft;
 }
 
-.move .right{
+.move .rightdir{
     animation-name: slideright;
 }
 
