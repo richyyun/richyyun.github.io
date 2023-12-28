@@ -1,7 +1,20 @@
 /* Top nav */
 /* Override navigation for home */
 .homenav{
-    color: black;
+    animation-name: dropdown;
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dropdown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }
 
 
