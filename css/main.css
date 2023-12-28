@@ -37,6 +37,8 @@
     font-size: 20px;
     letter-spacing: 0.3em;
     font-weight: bold;
+    border-style: none solid none solid;
+    border-width: 0.01em;
 }
 
 .topnav a:hover{
