@@ -3,20 +3,15 @@
 .homenav{
     position: abosolute;
     margin-top: -10vh;
-    animation-name: dropdown;
-    animation-delay: 2s;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
-    overflow: hidden;
+    transition: margin-top;
+    transition-delay: 2s;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 }
 
-@keyframes dropdown {
-    100% {
-        transform: translateY(10vh);
-    }
+.homenav::after{
+    margin-top: 0;
 }
-
 
 /* Defining row */
 .row {
