@@ -16,7 +16,6 @@
     --fs: 30px;
     --_g: #0000 90deg,var(--c) 0;
     --_p: var(--w) var(--w) border-box no-repeat;
-    --dist: 15em;
     --padbot: 0.25em;
     --padtop: 0.25em;
 }
@@ -62,7 +61,7 @@
 
 @keyframes slideleft {
     100% {
-        transform: translateX(-var(--dist));
+        transform: translateX(-15em);
     }
 }
 
@@ -76,6 +75,6 @@
 
 @keyframes slideright {
     100% {
-        transform: translateX(var(--dist));
+        transform: translateX(15em);
     }
 }
