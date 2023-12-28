@@ -14,14 +14,18 @@ The website can be found on: [richyyun.github.io](richyyun.github.io)
 ## TODO
 ~~1. Figure out implementation of a menu bar.~~
 2. Build the homepage.
+   - Have the navigation bar drop in on this page
    - Would like to make some graphic for this. Currently thinking name, neuroscientist, with a brain image in the middle.
    - May delve into blender / rendering an animation with lighting using a 3D model of a brain for this as that would be cool to do.
    - In the future may look into threejs to have the light source be where the mouse is and the brain lighting up from different angles.
-   - Have the navigation bar drop in on this page
 3. Build the about page.
-   - Need to see if I can use a photo from the Sonera website. 
+   - Need to see if I can use a photo from the Sonera website.
+   - Photo + box with blurb
+   - Three circles on the bottom with Sonera logo, UW, Duke. When hovered, the image goes to the right and a short blurb of what I did pops up on the right. Link to respective places.
 4. Build the projects page.
    - Includes all projects including personal, grad, and undergrad.
+   - Carousel + list
 5. Build the links page.
    - Likely just email, linkedin, and github.
-6. Fine tune design and animations.
+   - Same animation as the navbar to jump up when hovered.
+6. Fine tune colors, design, and animations.
