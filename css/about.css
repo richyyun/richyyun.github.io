@@ -4,22 +4,24 @@
 }
 
 .textdiv{
+    position: relative;
     width: 50vw;
     height: 20vh;
+    padding:0.5em; 
+    top: 20vh;
+    left: 10vw;
     background-color: white;
     color: black;
     font-size: 25px;
-    padding-top: 40vh;
-    padding-left: 10vw;
     border-style: solid;
     border-color: var(--bg);
     z-index: 2;
 }
 
 .imagediv{
-    width: 50vw;
+    width: 60vw;
     position:relative;
-    bottom: 40vh;
+    top: -025vh;
     left: 40vw;
     z-index: 1;
 }
