@@ -15,10 +15,10 @@
 
 /* Define how the name and title look */
 * {
-    --b: 0.1em;
-    --c: white;
-    --w: 1.5em;
-    --fs: 30px;
+    --b: 0.1em;     /* Border width */
+    --c: white;   /* Border color */
+    --w: 1.5em;     /* Border legnth */
+    --fs: 2.5vw;
     --_g: #0000 90deg,var(--c) 0;
     --_p: var(--w) var(--w) border-box no-repeat;
     --padbot: 0.25em;
@@ -75,12 +75,12 @@
 
 @keyframes slideleft {
     100% {
-        transform: translateX(-18em);
+        transform: translateX(-20vw);
     }
 }
 
 @keyframes slideright {
     100% {
-        transform: translateX(18em);
+        transform: translateX(20vw);
     }
 }

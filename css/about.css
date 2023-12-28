@@ -15,16 +15,16 @@
     border-style: solid;
     border-color: white;
     z-index: 2;
-    border-radius: 1em;
+    border-radius: 2vw;
 }
 
 .texthead{
-    font-size: 30px;
+    font-size: 1.8vw;
 }    
 
 
 .textbody{
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 .imagediv{
@@ -33,11 +33,12 @@
     top: 10vh;
     left: 50vw;
     z-index: 1;
-    border-radius:2em;
+    border-radius:3vw;
 }
 
+/* For spacing between paragraphs */
 br {
-    display: block; /* makes it have a width */
-    content: ""; /* clears default height */
-    margin-top: 0.5em; /* change this to whatever height you want it */
+    display: block;     /* makes it have a width */
+    content: "";        /* clears default height */
+    margin-top: 1vw;    /* change this to whatever height you want it */
 }
