@@ -9,13 +9,22 @@
     padding:0.5em; 
     top: 30vh;
     left: -10vw;
-    background-color: white;
-    color: black;
+    background-color: var(--bg);
+    color: white;
     padding-left: 20vw;
     border-style: solid;
     border-color: var(--bg);
     z-index: 2;
     border-radius: 1em;
+}
+
+.texthead{
+    font-size: 30px;
+}    
+
+
+.textbody{
+    font-size: 20px;
 }
 
 .imagediv{
