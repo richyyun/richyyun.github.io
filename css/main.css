@@ -54,4 +54,8 @@
 }
 
 
+/* Override navigation for home */
+.topnav .home{
+    margin-top: -10vh;
+}
 

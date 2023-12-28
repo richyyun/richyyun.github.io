@@ -1,8 +1,3 @@
-/* Override navigation */
-.topnav .home{
-    margin-bottom: 20vh;
-}
-
 /* Defining row */
 .row {
     display: flex;
@@ -17,8 +12,8 @@
 * {
     --b: 0.1em;     /* Border width */
     --c: white;   /* Border color */
-    --w: 1.5em;     /* Border legnth */
-    --fs: 2.5vw;
+    --w: 1.25em;     /* Border legnth */
+    --fs: 2vw;
     --_g: #0000 90deg,var(--c) 0;
     --_p: var(--w) var(--w) border-box no-repeat;
     --padbot: 0.25em;
