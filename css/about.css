@@ -19,10 +19,11 @@
 }
 
 .imagediv{
-    width: 60vw;
+    width: 50vw;
     position:relative;
     top: -025vh;
     left: 40vw;
     z-index: 1;
+    border-radius:2em;
 }
 
