@@ -21,14 +21,8 @@
     background-color: transparent;
     display: flex;
     justify-content: center;
-    height: 10vh;
+    height: 15vh;
     width: 100vw;
-}
-
-/* Wrapper for each a element so we can apply borders / etc. without applying hover to the whole thing*/
-.wrapper{
-    border-style: none solid none solid;
-    border-width: 0.01em;
 }
 
 /* Each menu item */
