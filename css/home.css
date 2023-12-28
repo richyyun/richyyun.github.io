@@ -1,3 +1,8 @@
+/* Override navigation */
+.topnav{
+    color:chartreuse;
+}
+
 /* Defining row */
 .row {
     display: flex;
