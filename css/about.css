@@ -73,12 +73,9 @@ br {
     height: 15vw;
 }
 
-/* Separating them for potential future use */
-.soneralogo{
-}
-
-.fetzlogo{
-}
-
-.nicolelislogo{
+.icon a:hover{
+    animation-name: emphasize;
+    animation-duration: 0.25s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
 }
