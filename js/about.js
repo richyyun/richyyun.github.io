@@ -3,11 +3,22 @@ var fetz = document.getElementById("fetz");
 var nicolelis = document.getElementById("nicolelis");
 
 sonera.addEventListener('mouseover', ()=> {
-    fetz.style.opacity = 0;
-    nicolelis.style.opacity = 0;
+    fadeout(fetz)
 });
 
 sonera.addEventListener('mouseout', ()=> {
     fetz.style.opacity = 1;
     nicolelis.style.opacity = 1;
 });
+
+function fadeout(obj){
+    id = setInterval(fade, 5);
+    function fade(){
+        if (obj.style.opacity > 0) {
+            obj.style.opacity -= 1;
+        }
+        else{
+            clearInterval(id);
+        }
+    }
+}

@@ -48,6 +48,7 @@ br {
     display: flex;
     position: relative;
     top: -15vw;
+    left: -3vw;  /*Not sure why this is needed? */
     width: 100vw;
     padding-left: 5vw;
     padding-right: 5vw;
