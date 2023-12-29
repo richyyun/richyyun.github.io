@@ -46,6 +46,7 @@ br {
 /* For links + icons */
 .row {
     display: flex;
+    align-content: center;
     justify-content: space-evenly;
     overflow: visible;
 }
