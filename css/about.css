@@ -56,6 +56,15 @@ br {
     overflow: visible;
 }
 
+/* Need wrapper to position properly while applying sizing to images */
+.experience{
+    position: relative;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    overflow: visible;
+}
+
+/* Each icon */ 
 .icon{
     object-fit: cover;
     border-radius: 2em;
@@ -63,7 +72,8 @@ br {
     height: 15vw;
 }
 
-.icon .soneralogo{
+/* Animation for each experience */
+.soneralogo{
 }
 
 .soneralogo:hover + .fetzlogo{
@@ -80,10 +90,10 @@ br {
     animation-fill-mode: forwards;
 } 
 
-.icon .fetzlogo{
+.fetzlogo{
 }
 
-.icon .nicolelislogo{
+.nicolelislogo{
 }
 
 .explanation{
