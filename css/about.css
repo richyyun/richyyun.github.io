@@ -31,7 +31,7 @@
     width: 60vw;
     position: relative;
     top: -20vw;
-    left: 40vw;
+    left: 45vw;
     z-index: 1;
     border-radius:3vw;
 }
@@ -67,15 +67,35 @@ br {
     height: 15vw;
 }
 
-.sonera{
+.soneralogo{
 }
 
-.fetz{
+#sonera:hover + #fetz{
+    animation-name: fizzle;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
 }
 
-.nicolelis{
+#sonera:hover + #nicolelis{
+    animation-name: fizzle;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.fetzlogo{
+}
+
+.nicolelislogo{
 }
 
 .explanation{
 
+}
+
+@keyframes fizzle {
+    100% {
+        opacity: 0;
+    }
 }
