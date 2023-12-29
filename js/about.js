@@ -5,7 +5,7 @@ $("#sonera").mouseover(function () {
 });
 
 $("#sonera").mousemove(function () { 
-    if ($('#fetz:hover').length == 0) {
+    if (!$("#sonera").is(":hover")) {
         $("#fetz").css("opacity", 1);
     }
 });
