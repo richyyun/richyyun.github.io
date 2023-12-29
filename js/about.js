@@ -2,10 +2,35 @@
 
 $("#sonera").hover(function () {
         $("#fetz").fadeTo(100, 0);
+        $("#nicolelis").fadeTo(100, 0);
     }, function () {
         $("#fetz").stop(true, false);
         $("#fetz").css("opacity", 1);
+        $("#nicolelis").stop(true, false);
+        $("#nicolelis").css("opacity", 1);
     }
+);
+
+$("#fetz").hover(function () {
+    $("#sonera").fadeTo(100, 0);
+    $("#nicolelis").fadeTo(100, 0);
+}, function () {
+    $("#sonera").stop(true, false);
+    $("#sonera").css("opacity", 1);
+    $("#nicolelis").stop(true, false);
+    $("#nicolelis").css("opacity", 1);
+}
+);
+
+$("#nicolelis").hover(function () {
+    $("#sonera").fadeTo(100, 0);
+    $("#fetz").fadeTo(100, 0);
+}, function () {
+    $("#sonera").stop(true, false);
+    $("#sonera").css("opacity", 1);
+    $("#fetz").stop(true, false);
+    $("#fetz").css("opacity", 1);
+}
 );
 
 
