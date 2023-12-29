@@ -2,6 +2,7 @@
 
 $("#sonera").mouseover(function () { 
     $("#fetz").css("opacity", 0);
+    console.log('mouseover');
 });
 
 $("#sonera").mouseout(function () { 
