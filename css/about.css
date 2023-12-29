@@ -49,14 +49,10 @@ br {
     position: relative;
     top: -15vw;
     width: 100vw;
-    align-items: center;
-    justify-content: center;
-}
-
-.experience{
-    position: relative;
     padding-left: 5vw;
     padding-right: 5vw;
+    align-items: center;
+    justify-content: center;
     overflow: visible;
 }
 
@@ -67,7 +63,7 @@ br {
     height: 15vw;
 }
 
-.soneralogo{
+.icon .soneralogo{
 }
 
 .soneralogo:hover + .fetzlogo{
@@ -82,12 +78,12 @@ br {
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
+} 
+
+.icon .fetzlogo{
 }
 
-.fetzlogo{
-}
-
-.nicolelislogo{
+.icon .nicolelislogo{
 }
 
 .explanation{
