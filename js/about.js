@@ -1,7 +1,7 @@
 /* Animations for the bottom three images */
 
 $("#sonera").hover(function () {
-        $("#fetz").fadeTo(500, 0);
+        $("#fetz").fadeTo(50, 0);
     }, function () {
         $("#fetz").css("opacity", 1);
     }
