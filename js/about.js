@@ -10,7 +10,8 @@ sonera.addEventListener('mouseover', ()=> {
 });
 
 sonera.addEventListener('mouseout', ()=> {
-    fetz.animate({opacity:1})
+    fetz.style.animationDirection = 'reverse';
+    fetz.style.animationDuration = 0;
     nicolelis.style.opacity = 1;
 });
 
