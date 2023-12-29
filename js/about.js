@@ -5,8 +5,8 @@ var nicolelis = document.getElementById("nicolelis");
 sonera.addEventListener('mouseover', ()=> {
     fetz.animate(
         {opacity:[1,0]}, 
-        {duration:250, fill:'forwards'}
-        ).addEventListener("finish",function(){elem.style.opacity=0});
+        {duration:250, fill:'none'}
+        ).addEventListener("finish",function(){fetz.style.opacity=0});
 });
 
 sonera.addEventListener('mouseout', ()=> {
