@@ -7,6 +7,11 @@ $("#sonera").hover(function () {
     }
 );
 
+$("#fullscreen").mousemove(function () { 
+    if ($('#sonera:hover').length != 0) {
+        $("#fetz").css("opacity", 1);
+    }
+});
 
 
 /* Javascript works 90% of the way but cannot seem to figure out a 
