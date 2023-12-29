@@ -16,7 +16,7 @@ var nicolelisMouse = false;
 function addFade(elem, flag){
     elem.animate(
         {opacity:[1,0]}, 
-        {duration:100, fill:'none'}
+        {duration:100, fill:'forwards'}
         );/*.addEventListener("finish",function(){
             {elem.style.opacity=0}
         });*/
