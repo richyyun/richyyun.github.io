@@ -5,6 +5,7 @@ This script allows for inter-dependent animation effects.
 
 var sonera = document.getElementById("sonera");
 var fetz = document.getElementById("fetz");
+var fetzparent = document.getElementById("fetzparent");
 var nicolelis = document.getElementById("nicolelis");
 
 /* To correct for mouse moving out too fast not being captured */
@@ -16,9 +17,9 @@ function addFade(elem, flag){
     elem.animate(
         {opacity:[1,0]}, 
         {duration:100, fill:'none'}
-        ).addEventListener("finish",function(){
+        );/*.addEventListener("finish",function(){
             {elem.style.opacity=0}
-        });
+        });*/
 }
 
 sonera.addEventListener('mouseenter', ()=> {
@@ -29,7 +30,7 @@ sonera.addEventListener('mouseenter', ()=> {
 
 sonera.addEventListener('mouseleave', ()=> {
     soneraMouse = false;
-    fetz.style.opacity = 1;
+    fetzparent.style.opacity = 1;
     nicolelis.style.opacity = 1;
 });
 
