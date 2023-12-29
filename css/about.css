@@ -78,14 +78,14 @@ br {
 
 .soneralogo:hover + .fetzlogo{
     animation-name: fizzle;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
 }
 
 .soneralogo:hover + .nicolelislogo{
     animation-name: fizzle;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
 } 
@@ -93,8 +93,36 @@ br {
 .fetzlogo{
 }
 
+.fetzlogo:hover + .soneralogo{
+    animation-name: fizzle;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.fetzlogo:hover + .nicolelislogo{
+    animation-name: fizzle;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+} 
+
 .nicolelislogo{
 }
+
+.nicolelislogo:hover + .soneralogo{
+    animation-name: fizzle;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.nicolelislogo:hover + .fetzlogo{
+    animation-name: fizzle;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+} 
 
 .explanation{
 
