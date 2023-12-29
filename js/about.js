@@ -3,7 +3,10 @@ var fetz = document.getElementById("fetz");
 var nicolelis = document.getElementById("nicolelis");
 
 sonera.addEventListener('mouseover', ()=> {
-    fetz.animate([{opacity:1},{opacity:0}], 500);
+    fetz.animate(
+        {opacity:[0,1]}, 
+        {duration:250, fill:'forwards'}
+        );
 });
 
 sonera.addEventListener('mouseout', ()=> {
