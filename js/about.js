@@ -8,7 +8,7 @@ $("#sonera").hover(function () {
 );
 
 $("#fullscreen").mousemove(function () { 
-    if ($('#sonera:hover').length != 0) {
+    if ($('#sonera:hover').length == 0) {
         $("#fetz").css("opacity", 1);
     }
 });
