@@ -70,14 +70,14 @@ br {
 .soneralogo{
 }
 
-#sonera:hover + #fetz{
+.soneralogo:hover + .fetzlogo{
     animation-name: fizzle;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
 }
 
-#sonera:hover + #nicolelis{
+.soneralogo:hover + .nicolelislogo{
     animation-name: fizzle;
     animation-duration: 1s;
     animation-timing-function: ease;
