@@ -53,17 +53,16 @@ br {
 /* Need wrapper to position properly while applying sizing to images */
 .experience{
     position: relative;
-    padding-top: 1vw;
+    width: 10vw;
     overflow: visible;
 }
 
 /* For headings */
 .iconlabel{
     position: relative;
-    padding-bottom: 1vw;
-    width: 10vw;
+    width: 8vw;
     text-align: center;
-    font-size: .75em;
+    font-size: .6em;
 }
 
 /* Each icon */ 
