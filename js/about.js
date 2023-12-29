@@ -1,9 +1,10 @@
 /* Animations for the bottom three images */
-var fadedur = 250;
+var fadedur = 150;
+var fadeopacity = 0.5;
 
 $("#sonera").hover(function () {
-        $("#fetz").fadeTo(fadedur, 0);
-        $("#nicolelis").fadeTo(fadedur, 0);
+        $("#fetz").fadeTo(fadedur, fadeopacity);
+        $("#nicolelis").fadeTo(fadedur, fadeopacity);
     }, function () {
         $("#fetz").stop(true, false);
         $("#fetz").css("opacity", 1);
@@ -13,8 +14,8 @@ $("#sonera").hover(function () {
 );
 
 $("#fetz").hover(function () {
-    $("#sonera").fadeTo(fadedur, 0);
-    $("#nicolelis").fadeTo(fadedur, 0);
+    $("#sonera").fadeTo(fadedur, fadeopacity);
+    $("#nicolelis").fadeTo(fadedur, fadeopacity);
 }, function () {
     $("#sonera").stop(true, false);
     $("#sonera").css("opacity", 1);
@@ -24,8 +25,8 @@ $("#fetz").hover(function () {
 );
 
 $("#nicolelis").hover(function () {
-    $("#sonera").fadeTo(fadedur, 0);
-    $("#fetz").fadeTo(fadedur, 0);
+    $("#sonera").fadeTo(fadedur, fadeopacity);
+    $("#fetz").fadeTo(fadedur, fadeopacity);
 }, function () {
     $("#sonera").stop(true, false);
     $("#sonera").css("opacity", 1);
