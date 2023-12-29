@@ -35,7 +35,7 @@ sonera.addEventListener('mouseout', ()=> {
 });
 
 sonera.addEventListener('mousemove', ()=> {
-    if (!elem.matches(':hover')){
+    if (!sonera.matches(':hover')){
         fetz.style.opacity = 1;
         nicolelis.style.opacity = 1;
     }
