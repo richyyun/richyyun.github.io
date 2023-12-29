@@ -60,16 +60,20 @@ br {
 }
 
 /* For headings */
-.label{
+.iconlabel{
+    position: relative;
+    padding-bottom: 1vw;
+    width: 10vw;
     text-align: center;
+    font-size: .75em;
 }
 
 /* Each icon */ 
 .icon{
     object-fit: cover;
-    border-radius: 2em;
-    width: 15vw;
-    height: 15vw;
+    border-radius: 1em;
+    width: 10vw;
+    height: 10vw;
 }
 
 .icon a:hover{
