@@ -17,8 +17,7 @@ function addFade(elem, flag){
         {opacity:[1,0]}, 
         {duration:250, fill:'none'}
         ).addEventListener("finish",function(){
-            if (elem.matches(':hover')){elem.style.opacity=0}
-            else {elem.style.opacity=1}            
+            {elem.style.opacity=0}
         });
 }
 
