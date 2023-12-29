@@ -3,7 +3,7 @@ var fetz = document.getElementById("fetz");
 var nicolelis = document.getElementById("nicolelis");
 
 sonera.addEventListener('mouseover', ()=> {
-    fadeout(fetz)
+    fadeout(fetz);
 });
 
 sonera.addEventListener('mouseout', ()=> {
@@ -12,12 +12,12 @@ sonera.addEventListener('mouseout', ()=> {
 });
 
 function fadeout(obj){
-    id = setInterval(fade, 5);
+    id = setInterval(fade, 10);
+    let opacity = 1;
     function fade(){
-        if (obj.style.opacity > 0) {
-            obj.style.opacity -= 1;
-        }
-        else{
+        opacity -= 0.01
+        obj.style.opacity = opacity;
+        if (obj.style.opacity == 0){
             clearInterval(id);
         }
     }
