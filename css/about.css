@@ -59,6 +59,11 @@ br {
     overflow: visible;
 }
 
+/* For headings */
+.label{
+    text-align: center;
+}
+
 /* Each icon */ 
 .icon{
     object-fit: cover;
@@ -72,4 +77,10 @@ br {
     animation-duration: 0.25s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
+}
+
+@keyframes emphasize {
+    100% {
+        transform: translateY(-5%);
+    }
 }
