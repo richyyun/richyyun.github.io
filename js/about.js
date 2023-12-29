@@ -1,15 +1,11 @@
 /* Animations for the bottom three images */
 
-$("#sonera").mouseover(function () { 
-    $("#fetz").fadeTo(500, 0);
-});
-
-$("#sonera").mousemove(function () { 
-    if ($('#sonera:hover').length == 0) {
+$("#sonera").hover(function () {
+        $("#fetz").fadeTo(500, 0);
+    }, function () {
         $("#fetz").css("opacity", 1);
     }
-});
-
+);
 
 
 
