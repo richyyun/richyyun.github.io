@@ -10,7 +10,7 @@ sonera.addEventListener('mouseover', ()=> {
 });
 
 sonera.addEventListener('mouseout', ()=> {
-    fetz.style.opacity = 1;
+    fetz.animate({opacity:1})
     nicolelis.style.opacity = 1;
 });
 
