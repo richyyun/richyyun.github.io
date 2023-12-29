@@ -73,16 +73,3 @@ br {
     width: 10vw;
     height: 10vw;
 }
-
-.icon a:hover{
-    animation-name: emphasize;
-    animation-duration: 0.25s;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
-}
-
-@keyframes emphasize {
-    100% {
-        transform: translateY(-5%);
-    }
-}
