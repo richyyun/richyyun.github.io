@@ -1,11 +1,13 @@
 /* Animations for the bottom three images */
 
-$("#sonera").on("mouseover", function(){
-    $("#fetz").fadeTo(1, 0);
+$("#sonera").mouseover(function () { 
+    $("#fetz").fadeTo(duration, opacity);
 });
-$("#sonera").on("mouseout", function(){
+
+$("#sonera").mouseout(function () { 
     $("#fetz").css("opacity", 1);
 });
+
 
 
 /* Javascript works 90% of the way but cannot seem to figure out a 
