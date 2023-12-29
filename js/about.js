@@ -4,9 +4,12 @@ $("#sonera").mouseover(function () {
     $("#fetz").fadeTo(500, 0);
 });
 
-$("#sonera").mouseout(function () { 
-    $("#fetz").css("opacity", 1);
+$("#sonera").mousemove(function () { 
+    if ($('#fetz:hover').length == 0) {
+        $("#fetz").css("opacity", 1);
+    }
 });
+
 
 
 
