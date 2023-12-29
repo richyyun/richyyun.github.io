@@ -4,9 +4,9 @@ var nicolelis = document.getElementById("nicolelis");
 
 sonera.addEventListener('mouseover', ()=> {
     fetz.animate(
-        {opacity:[0,1]}, 
+        {opacity:[1,0]}, 
         {duration:250, fill:'forwards'}
-        ).addEventListener("finish",function(){fetz.style.display="none"});;
+        );
 });
 
 sonera.addEventListener('mouseout', ()=> {
