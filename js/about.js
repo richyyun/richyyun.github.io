@@ -3,15 +3,10 @@
 $("#sonera").hover(function () {
         $("#fetz").fadeTo(100, 0);
     }, function () {
+        $("#fetz").stop(true, false);
         $("#fetz").css("opacity", 1);
     }
 );
-
-$("#fullscreen").mousemove(function () { 
-    if ($('#sonera:hover').length == 0) {
-        $("#fetz").css("opacity", 1);
-    }
-});
 
 
 /* Javascript works 90% of the way but cannot seem to figure out a 
