@@ -1,8 +1,7 @@
 /* Animations for the bottom three images */
 
 $("#sonera").mouseover(function () { 
-    $("#fetz").css("opacity", 0);
-    console.log('mouseover');
+    $("#fetz").fadeTo(1, 0);
 });
 
 $("#sonera").mouseout(function () { 
