@@ -4,10 +4,10 @@
 }
 
 .textdiv{
-    position: relative;
+    position: absolute;
     width: 40vw;
     padding:3em; 
-    top: 10vw;
+    top: 7vw;
     left: -10vw;
     background-color: var(--bg);
     color: white;
@@ -15,7 +15,7 @@
     border-style: solid;
     border-color: white;
     z-index: 2;
-    border-radius: 1vw;
+    border-radius: 0.5vw;
 }
 
 .texthead{
@@ -29,12 +29,12 @@
 
 .imagediv{
     width: 60vw;
-    position: relative;
-    top: -21vw;
+    position: absolute;
+    top: 4vw;
     left: 45vw;
     z-index: 1;
-    border-radius:1vw;
-}
+    border-radius: 0.5vw;
+} 
 
 /* For spacing between paragraphs */
 br {
@@ -47,21 +47,15 @@ br {
 .row {
     display: flex;
     position: relative;
-    top: -15vw;
-    left: -8vw;  /*Not sure why this is needed? */
-    width: 100vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     overflow: visible;
 }
 
 /* Need wrapper to position properly while applying sizing to images */
 .experience{
     position: relative;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-top: 1vw;
     overflow: visible;
 }
 
