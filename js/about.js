@@ -1,6 +1,6 @@
 /* Animations for the bottom three images */
 var fadedur = 150;
-var fadeopacity = 0.5;
+var fadeopacity = 0.25;
 
 $("#sonera").hover(function () {
         $("#fetz").fadeTo(fadedur, fadeopacity);
