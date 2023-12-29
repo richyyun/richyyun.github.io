@@ -4,10 +4,10 @@
 }
 
 .textdiv{
-    position: absolute;
+    position: relative;
     width: 40vw;
     padding:3em; 
-    top: 30vh;
+    top: 10vw;
     left: -10vw;
     background-color: var(--bg);
     color: white;
@@ -29,8 +29,8 @@
 
 .imagediv{
     width: 60vw;
-    position: absolute;
-    top: 10vh;
+    position: relative;
+    top: -20vw;
     left: 50vw;
     z-index: 1;
     border-radius:3vw;
@@ -47,10 +47,11 @@ br {
 .row {
     display: flex;
     position: relative;
-    top: 10vh;
     width: 100vw;
+    height: 40vh;
     align-items: center;
     justify-content: center;
+    vertical-align: top;
 }
 
 .experience{
