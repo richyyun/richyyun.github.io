@@ -47,24 +47,24 @@ br {
 .row {
     display: flex;
     position: relative;
+    top: -15vw;
     width: 100vw;
-    height: 40vh;
     align-items: center;
     justify-content: center;
-    vertical-align: top;
 }
 
 .experience{
-    width: 20vw;
-    height: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    position: relative;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    overflow: visible;
 }
 
 .icon{
-    width: 20vw;
     object-fit: cover;
-    border-radius: 10vw;
+    border-radius: 2em;
+    width: 15vw;
+    height: 15vw;
 }
 
 .sonera{
