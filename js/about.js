@@ -21,13 +21,13 @@ function addFade(elem, flag){
         });
 }
 
-sonera.addEventListener('mouseover', ()=> {
+sonera.addEventListener('mouseenter', ()=> {
     soneraMouse = true;
     addFade(fetz, soneraMouse);
     addFade(nicolelis, soneraMouse);
 });
 
-sonera.addEventListener('mouseout', ()=> {
+sonera.addEventListener('mouseleave', ()=> {
     soneraMouse = false;
     fetz.style.opacity = 1;
     nicolelis.style.opacity = 1;
