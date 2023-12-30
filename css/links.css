@@ -24,6 +24,21 @@
     font-size: 2vw;
     z-index: 1;
     font-weight: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.linklabel:link { 
+    text-decoration: none; 
+} 
+.linklabel:visited { 
+    text-decoration: none; 
+} 
+.linklabel:hover { 
+    text-decoration: none; 
+} 
+.linklabel:active { 
+    text-decoration: none; 
 }
 
 /* Each image */
