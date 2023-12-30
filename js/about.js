@@ -4,7 +4,7 @@ var fadeopacity = 0.2;
 
 $("#sonera").hover(function () {
         $("#sonera").animate({
-            top: "-=50"
+            opacity: 0.5
         }, 250 );
         $("#fetz").fadeTo(fadedur, fadeopacity);
         $("#nicolelis").fadeTo(fadedur, fadeopacity);
