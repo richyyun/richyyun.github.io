@@ -1,5 +1,10 @@
 
 var elems = document.getElementsByClassName("email");
-for (i=0; i<elems.length; i++){
-    elems[i].href = "mailto: richyjyun@gmail.com";
+if (elems.length == 1){
+    elems.href = "mailto: richyjyun@gmail.com";
+}
+else{
+    for (i=0; i<elems.length; i++){
+        elems[i].href = "mailto: richyjyun@gmail.com";
+    }
 }
