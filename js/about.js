@@ -1,10 +1,10 @@
 /* Animations for the bottom three images */
-var fadedur = 150;
-var fadeopacity = 0.25;
+var fadedur = 100;
+var fadeopacity = 0.2;
 
 $("#sonera").hover(function () {
-        $( "#sonera" ).animate({
-            top: "-=5%"
+        $("#sonera").animate({
+            top: "-=50"
         }, 250 );
         $("#fetz").fadeTo(fadedur, fadeopacity);
         $("#nicolelis").fadeTo(fadedur, fadeopacity);
