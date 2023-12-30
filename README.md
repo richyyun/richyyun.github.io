@@ -28,4 +28,9 @@ The website can be found on: [richyyun.github.io](richyyun.github.io)
 5. Build the links page.
    - Likely just email, linkedin, and github.
    - Same animation as the navbar to jump up when hovered.
-6. Fine tune colors, design, and animations.
+6. Make things work on mobile / different sized screens.
+7. Fine tune colors, design, and animations.
+
+
+## Lessons learned
+1. Asking the right questions.
