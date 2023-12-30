@@ -19,21 +19,23 @@
 .linklabel{
     position: relative;
     top: 15vw;
-    width: 30vw;
+    width: 31vw;
     text-align: center;
     font-size: 2vw;
     z-index: 1;
+    font-weight: normal;
 }
 
 /* Each image */
 .linkimage{
-    
+
 }
 
 /* Each background */ 
 .linkbackground{
     width: 30vw;
-    height: 25vw;
+    height: 20vw;
     object-fit: cover;
     opacity: 0.5;
+    filter: brightness(1.1) contrast(1.2);
 }
