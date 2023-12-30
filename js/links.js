@@ -5,7 +5,7 @@ if (elems.length == 1){
 }
 else{
     for (i=0; i<elems.length; i++){
-        elems[i].href = "mailto: richyjyun@gmail.com";
+        elems[i].href = "https://www.linkedin.com/in/richy-yun/";
     }
 }
 console.log(elems.href);
