@@ -1,11 +1,17 @@
+/* Define width */
+* {
+    --w: 30vw;
+    --h: 20vw;
+}
+
 /* Defining row */
 .row {
     display: flex;
     position: absolute;
     top: 15vh;
-    left: 5vw;
+    left: (100-var(--w))/2;
     height: 70vh;
-    width: 90vw;
+    width: 3*var(--w);
     align-items: center;
     justify-content: space-evenly;
 }
@@ -13,8 +19,8 @@
 /* For headings */
 .linklabel{
     position: relative;
-    padding-top: 10vw;
-    width: 30vw;
+    padding-top: var(--h)/2;
+    width: var(--w);
     text-align: center;
     font-size: 2vw;
     z-index: 1;
@@ -22,7 +28,6 @@
     color: white;
     text-decoration: none;
 }
-
 
 /* So text links don't have color and underline*/
 a{
@@ -32,17 +37,17 @@ a{
 /* Each image */
 .linkimage{
     position: relative;
-    width: 10vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    padding-bottom: 2.5vw;
+    width:  var(--w)/3;
+    padding-left:  var(--w)/3;
+    padding-right:  var(--w)/3;
+    padding-bottom: var(--h)/8;
     object-fit: cover;
 }
 
 /* Each background */ 
 .linkbackground{
-    width: 30vw;
-    height: 20vw;
+    width: var(--w);
+    height: var(--h);
     object-fit: cover;
     opacity: 0.5;
     filter: brightness(1.1) contrast(1.2);
