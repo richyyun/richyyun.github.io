@@ -28,23 +28,15 @@
     text-decoration: none;
 }
 
-.linklabel:link { 
-    text-decoration: none; 
-} 
-.linklabel:visited { 
-    text-decoration: none; 
-} 
-.linklabel:hover { 
-    text-decoration: none; 
-} 
-.linklabel:active { 
-    text-decoration: none; 
+/* So text links don't have color and underline*/
+a{
+    text-decoration: none;
 }
-
 
 /* Each image */
 .linkimage{
-
+    width: 10vw;
+    object-fit: cover;
 }
 
 /* Each background */ 
