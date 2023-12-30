@@ -8,3 +8,4 @@ else{
         elems[i].href = "mailto: richyjyun@gmail.com";
     }
 }
+console.log(elems.href);
