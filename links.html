@@ -5,13 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Richy Yun - Links</title>
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/links.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head>
     <body class="dark">
         
         <!-- Navigation bar -->
         <header>
             <div id="navigation" class="topnav"></div>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
             <script>
                 $(function() {
                     $("#navigation").load("navigation.html");
@@ -21,10 +22,26 @@
 
         <!-- Begin page content -->
         <main>
-            <p>
-                How to get in touch!
-                Currently under construction...
-            </p>
+            <div class="row">
+                <div class="link">
+                    <h1 class="linklabel"> Email <br> richyjyun@gmail.com </h1>
+                    <a href = "mailto: richyjyun@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <img class="icon" src="assets/SoneraLogo.png" atl="Neurochip" id="sonera"></img>
+                    </a>
+                </div>
+                <div class="linklabel">
+                    <h1 class="linklabel"> LinkedIn <br> richy-yun </h1>
+                    <a href="https://www.linkedin.com/in/richy-yun/" target="_blank" rel="noopener noreferrer">
+                        <img class="icon" src="assets/Neurochip.jpg" atl="Neurochip" id="fetz"></img>
+                    </a>                
+                </div>
+                <div class="linklabel">
+                    <h1 class="linklabel"> Github <br> richyyun </h1>
+                    <a href="https://github.com/richyyun" target="_blank" rel="noopener noreferrer">
+                        <img class="icon" src="assets/RatNeuro.png" atl="Rat" id="nicolelis"></img>
+                    </a>      
+                </div>
+            </div>
         </main>
 
     </body>
