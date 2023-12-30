@@ -1,5 +1,5 @@
-
 var elems = document.getElementsByClassName("email");
+console.log(elems.length);
 if (elems.length == 1){
     elems.href = "mailto: richyjyun@gmail.com";
 }
