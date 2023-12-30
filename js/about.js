@@ -4,13 +4,13 @@ var fadeopacity = 0.2;
 
 $("#sonera").hover(function () {
         $("#sonera").animate({
-            top: 5
+            scale: 1.2
         }, 250 );
         $("#fetz").fadeTo(fadedur, fadeopacity);
         $("#nicolelis").fadeTo(fadedur, fadeopacity);
     }, function () {
         $("#sonera").stop(true, false);
-        $("#sonera").css("top", 0);
+        $("#sonera").css("scale", 1);
         $("#fetz").stop(true, false);
         $("#fetz").css("opacity", 1);
         $("#nicolelis").stop(true, false);
