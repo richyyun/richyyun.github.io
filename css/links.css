@@ -2,7 +2,7 @@
 .row {
     display: flex;
     position: absolute;
-    top: 10vh;
+    top: 15vh;
     left: 5vw;
     height: 70vh;
     width: 90vw;
@@ -10,16 +10,11 @@
     justify-content: space-evenly;
 }
 
-/* For any space in between, etc.*/
-.link{
-
-}
-
 /* For headings */
 .linklabel{
     position: relative;
-    top: 15vw;
-    width: 31vw;
+    padding-top: 10vw;
+    width: 30vw;
     text-align: center;
     font-size: 2vw;
     z-index: 1;
@@ -28,6 +23,7 @@
     text-decoration: none;
 }
 
+
 /* So text links don't have color and underline*/
 a{
     text-decoration: none;
@@ -35,7 +31,11 @@ a{
 
 /* Each image */
 .linkimage{
+    position: relative;
     width: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2.5vw;
     object-fit: cover;
 }
 
