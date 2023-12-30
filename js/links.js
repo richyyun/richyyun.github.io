@@ -1,5 +1,5 @@
-const classes = ["email","linkedin","github"];
-const urls = ["mailto: richyjyun@gmail.com", "https://www.linkedin.com/in/richy-yun/", "https://github.com/richyyun"];
+const classes = ["email","scholar","linkedin","github"];
+const urls = ["mailto: richyjyun@gmail.com", "https://scholar.google.com/citations?user=8Bxs6g0AAAAJ&hl=en", "https://www.linkedin.com/in/richy-yun/", "https://github.com/richyyun"];
 
 for (cl=0; cl<classes.length; cl++){
     const elems = document.getElementsByClassName(classes[cl]);
