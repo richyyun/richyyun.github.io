@@ -2,7 +2,7 @@
 .row {
     display: flex;
     position: absolute;
-    top: 10vh;
+    top: 5vh;
     left: 12.5vw;
     height: 70vh;
     width: 75vw;
