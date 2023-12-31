@@ -1,99 +1,73 @@
-.container {
-    width: 100%;
-    height: 90vh;
-    position: relative;
-    margin: auto;
+.wrapper{
+    overflow-y: visible;
+    overflow-x: visible;
 }
 
-.slide {
-    padding-top: 2vh;
-    width: 100%;
-    height: 85vh;
-    display: none;  /* Hide by default */
-    align-items: center;
-}
-
-.figure{
-    width: 50%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.right{
-    width: 50%;
-}
-
-.abstracttitle{
-    font-size: 1.5em;
-    padding-right: 5%;
-}
-
-.abstract{
-    padding-right: 10%;
-    text-align: justify;
-}
-
-.linkwrapper{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-}
-
-.link{
-    position: relative;
-    text-align: center;
-    padding:2em;
-    background-color: white;
-    color: var(--bg);
-    align-content: center;
-    border-radius: 1em;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-    cursor: pointer;
+.textdiv{
     position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.5s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+    width: 40vw;
+    padding:3em; 
+    top: 8vw;
+    left: -13vw;
     background-color: var(--bg);
-    opacity: 0.5;
+    color: white;
+    padding-left: 25vw;
+    border-style: solid;
+    border-color: white;
+    z-index: 2;
+    border-radius: 0.5vw;
 }
 
-/* Position the "next button" to the right */
-.next {
-    right: 1vw;
-    border-radius: 3px 0 0 3px;
+.texthead{
+    font-size: 1.8vw;
+}    
+
+.textbody{
+    font-size: 1vw;
 }
 
-.prev:hover, .next:hover {
-    opacity: 1;
+.imagediv{
+    width: 60vw;
+    position: absolute;
+    top: 4vw;
+    left: 45vw;
+    z-index: 1;
+    border-radius: 0.5vw;
+} 
+
+/* For spacing between paragraphs */
+br {
+    display: block;     /* makes it have a width */
+    content: "";        /* clears default height */
+    margin-top: 1vw;    /* change this to whatever height you want it */
 }
 
-/* The dots */
-.dotrow{
+/* For links + icons */
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: visible;
+}
+
+/* Need wrapper to position properly while applying sizing to images */
+.experience{
+    position: relative;
+    width: 10vw;
+    overflow: visible;
+}
+
+/* For headings */
+.iconlabel{
+    position: relative;
+    width: 8vw;
     text-align: center;
-    top: -1vh;
+    font-size: .6em;
 }
 
-.dot {
-    cursor: pointer;
-    height: 1em;
-    width: 1em;
-    margin: 0 .2em;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-    background-color: #717171;
+/* Each icon */ 
+.icon{
+    object-fit: cover;
+    border-radius: 1em;
+    width: 8vw;
+    height: 8vw;
 }
