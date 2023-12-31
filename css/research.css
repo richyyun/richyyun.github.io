@@ -1,5 +1,5 @@
 .container {
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     position: relative;
     margin: auto;
@@ -13,9 +13,9 @@
 }
 
 .figure{
-    width: 50vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .right{
@@ -24,23 +24,22 @@
 
 .abstracttitle{
     font-size: 1.5em;
-    width: 50vw;
-    padding-right: 5vw;
+    width: 50%;
+    padding-right: 5%;
 }
 
 .abstract{
-    width: 40vw;
-    padding-right: 5vw;
+    width: 40%;
+    padding-right: 5%;
     text-align: justify;
 }
 
 .linkwrapper{
-    width: 40vw;
+    width: 40%;
 }
 
 .link{
     position: relative;
-    width: 40vw;
     text-align: center;
     padding:2em;
     background-color: white;
