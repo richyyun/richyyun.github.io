@@ -14,7 +14,7 @@
 }
 
 .figure{
-    max-width: 50%;
+    max-width: 40%;
     max-height: 100%;
     padding-left: 5%;
     padding-right: 5%;
@@ -75,7 +75,7 @@
     border-radius: .5em;
     justify-content: center;
     align-items: center;
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 /* So text links don't have color and underline*/
