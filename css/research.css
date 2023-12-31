@@ -104,7 +104,6 @@ a{
 
 /* Position the "next button" to the right */
 .next {
-    right: 1vw;
     border-radius: 3px 0 0 3px;
 }
 
