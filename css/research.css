@@ -7,6 +7,7 @@
 
 .slide {
     padding-top: 2vh;
+    width: 100%;
     height: 85vh;
     display: none;  /* Hide by default */
     align-items: center;
@@ -19,23 +20,31 @@
 }
 
 .right{
-
+    width: 50%;
 }
 
-.abstracttitle{
+.title{
     font-size: 1.5em;
-    width: 50%;
     padding-right: 5%;
 }
 
 .abstract{
-    width: 40%;
-    padding-right: 5%;
+    padding-right: 10%;
     text-align: justify;
 }
 
+.statuswrapper{
+
+}
+
+.status{
+    background-color: var(--bgc);
+}
+
 .linkwrapper{
-    width: 40%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
 }
 
 .link{
