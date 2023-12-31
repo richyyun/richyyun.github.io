@@ -24,8 +24,13 @@
 }
 
 .title{
+    width: 90%;
     font-size: 1.5em;
     padding-right: 5%;
+}
+
+.keywords{
+    
 }
 
 .abstract{
@@ -51,6 +56,7 @@
     width: 90%;
     display: flex;
     justify-content: center;
+    align-content: center;
     padding-top: 1vh;
 }
 
@@ -60,7 +66,6 @@
     padding:2em;
     background-color: white;
     color: var(--bg);
-    align-content: center;
     border-radius: 1em;
 }
 
