@@ -9,18 +9,29 @@
     padding-top: 2vh;
     height: 85vh;
     display: none;  /* Hide by default */
+    align-items: center;
 }
 
 .figure{
-
+    width: 50vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .right{
 
 }
 
-.abstract{
+.abstracttitle{
+    width: 50vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
 
+.abstract{
+    width: 50vw;
+    padding-left: 10vw;
+    padding-right: 5vw;
 }
 
 .link{
