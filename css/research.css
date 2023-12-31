@@ -23,6 +23,7 @@
 }
 
 .abstracttitle{
+    font-size: 1.5em;
     width: 50vw;
     padding-right: 5vw;
 }
@@ -30,10 +31,22 @@
 .abstract{
     width: 40vw;
     padding-right: 5vw;
+    text-align: justify;
+}
+
+.linkwrapper{
+    width: 40vw;
 }
 
 .link{
-
+    position: relative;
+    width: 40vw;
+    text-align: center;
+    padding:2em;
+    background-color: white;
+    color: var(--bg);
+    align-content: center;
+    border-radius: 1em;
 }
 
 /* Next & previous buttons */
