@@ -117,6 +117,7 @@ a{
 
 /* The dots */
 .dotrow{
+    position: relative;
     text-align: center;
     top: -1vh;
 }
