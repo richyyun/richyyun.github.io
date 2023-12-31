@@ -11,6 +11,22 @@
     display: none;  /* Hide by default */
 }
 
+.figure{
+
+}
+
+.right{
+
+}
+
+.abstract{
+
+}
+
+.link{
+
+}
+
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
