@@ -23,6 +23,10 @@
     padding-right: 5%;
 }
 
+.vid{
+    width: 50%;
+}
+
 .right{
     max-width: 50%;
     max-height: 90%
