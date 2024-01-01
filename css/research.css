@@ -16,8 +16,12 @@
     background-color: rgb(128,128,128,0.5);
 }
 
+.left{
+    width: 50%;
+}
+
 .figure{
-    max-width: 40%;
+    max-width: 50%;
     max-height: 90%;
     padding-left: 5%;
     padding-right: 5%;
