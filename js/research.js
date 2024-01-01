@@ -1,5 +1,5 @@
 let slideIndex = 1;
-showSlides(slideIndex);
+firstSlide();
 
 // Next/previous controls
 function plusSlides(n) {
@@ -9,6 +9,14 @@ function plusSlides(n) {
 // Thumbnail image controls
 function currentSlide(n) {
     showSlides(slideIndex = n);
+}
+
+function firstSlide(){
+    let slides = document.getElementsByClassName("slide");
+    let dots = document.getElementsByClassName("dot");
+    slides[0].style.display = "flex";
+    slides[0].style.left = "0%"; // turn off and on animation
+    dots[0].className += " active";
 }
 
 function showSlides(n) {
