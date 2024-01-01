@@ -1,13 +1,16 @@
 let slideIndex = 1;
+let prevSlide = 1;
 firstSlide();
 
 // Next/previous controls
 function plusSlides(n) {
+    prevSlide = slideIndex;
     showSlides(slideIndex += n);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
+    prevSlide = slideIndex;
     showSlides(slideIndex = n);
 }
 
@@ -20,17 +23,17 @@ function firstSlide(){
 }
 
 function showSlides(n) {
-    if (n == slideIndex){
+    if (n == prevSlide){
         return;
     }
     let i;
     let slides = document.getElementsByClassName("slide");
     let dots = document.getElementsByClassName("dot");
     let leftright;
-    if (n < slideIndex){
+    if (n < prevSlide){
         leftright = "left"; // we are moving left, slides are moving right
     }
-    else if(n > slideIndex){
+    else if(n > prevSlide){
         leftright = "right"; // we are moving right, slides are moving left
     }
     if (n > slides.length) {slideIndex = 1}
