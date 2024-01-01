@@ -13,6 +13,7 @@
     display: none;  /* Hide by default */
     align-items: center;
     overflow: visible;
+    background-color: rgb(128,128,128,0.5);
 }
 
 .figure{
