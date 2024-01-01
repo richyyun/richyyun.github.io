@@ -26,8 +26,8 @@ function showSlides(n) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex-1].style.display = "flex";
-    console.log(slides[slideIndex-1].style.left);
-    console.log(slides[slideIndex-1].style.transition);
+    console.log(window.getComputedStyle(elem, null).getPropertyValue("left"));
+    console.log(window.getComputedStyle(elem, null).getPropertyValue("transition"));
     slides[slideIndex-1].style.left = "0%";
     dots[slideIndex-1].className += " active";
 }
