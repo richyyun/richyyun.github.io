@@ -12,13 +12,29 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
+    if (n == slideIndex){
+        return;
+    }
     let i;
     let slides = document.getElementsByClassName("slide");
     let dots = document.getElementsByClassName("dot");
+    let leftright;
+    if (n < slideIndex){
+        leftright = "left"; // we are moving left, slides are moving right
+    }
+    else if(n > slideIndex){
+        leftright = "right"; // we are moving right, slides are moving left
+    }
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
         if (slides[i].style.display == "flex"){
+            if (leftright == "left"){
+                slides[i].style.left = "100%";
+            }
+            else {
+                slides[i].style.left = "-100%";
+            }
             slides[i].style.display = "none";
         }
     }
@@ -26,8 +42,8 @@ function showSlides(n) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     slides[slideIndex-1].style.display = "flex";
-    console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("left"));
-    console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("transition"));
+    //console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("left"));
+    //console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("transition"));
     slides[slideIndex-1].style.left = "0%";
     dots[slideIndex-1].className += " active";
 }
