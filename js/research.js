@@ -3,6 +3,10 @@ let prevSlide = 0;
 let leftright = "left";
 firstSlide();
 
+$("slide").on('transitionend', function(event) {
+    this.style.display = "none";
+});
+
 // Next/previous controls
 function plusSlides(n) {
     assignvars(slideIndex + n);
@@ -53,7 +57,7 @@ function showSlides() {
     let dots = document.getElementsByClassName("dot");
 
     // Stop all ongoing animations
-    $("slide").stop(true, true);
+    $(".slide").stop(true, true);
 
     // Move previous slide
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
@@ -64,9 +68,6 @@ function showSlides() {
     else {
         slides[prevSlide].style.left = "-100%";
     }
-    slides[prevSlide].addEventListener('transitionend', function(event) {
-        slides[prevSlide].style.display = "none";
-    }, false );
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
 
     // Move current slide
