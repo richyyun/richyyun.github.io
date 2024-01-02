@@ -43,10 +43,10 @@ function showSlides(n) {
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("transition"));       //for debugging
     if (leftright == "left"){
-        slides[i].style.left = "100%";
+        slides[prevSlide].style.left = "100%";
     }
     else {
-        slides[i].style.left = "-100%";
+        slides[prevSlide].style.left = "-100%";
     }
     //slides[i].style.display = "none";
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
