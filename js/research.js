@@ -38,6 +38,11 @@ function assignvars(n){
     let slides = document.getElementsByClassName("slide");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
+
+    console.log(prevSlide);
+    console.log(n);
+    console.log(slideIndex);
+    console.log(leftright);
 }
 
 function showSlides() {
@@ -45,7 +50,7 @@ function showSlides() {
     let slides = document.getElementsByClassName("slide");
     let dots = document.getElementsByClassName("dot");
     
-    console.log(leftright);
+    // Move previous slide
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("transition"));       //for debugging
     if (leftright == "left"){
@@ -59,9 +64,7 @@ function showSlides() {
     }, false );
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
 
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
+    // Move current slide
     if (leftright == "left"){
         slides[slideIndex-1].style.left = "-100%";
     }
@@ -74,4 +77,10 @@ function showSlides() {
     slides[slideIndex-1].style.left = "0%";
     console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("left"));          //for debugging
     dots[slideIndex-1].className += " active";
+
+    // Relabel dots
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+
 }
