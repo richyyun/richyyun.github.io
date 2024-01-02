@@ -49,7 +49,7 @@ function showSlides(n) {
             else {
                 slides[i].style.left = "-100%";
             }
-            slides[i].style.display = "none";
+            //slides[i].style.display = "none";
             console.log(window.getComputedStyle(slides[i], null).getPropertyValue("left"));
         }
     }
