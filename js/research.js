@@ -34,6 +34,7 @@ function assignvars(n){
     else if(n > prevSlide){
         leftright = "right"; // we are moving right, slides are moving left
     }
+    slideIndex = n;
     let slides = document.getElementsByClassName("slide");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
