@@ -4,7 +4,7 @@ let leftright = "left";
 firstSlide();
 
 $("slide").on('transitionend', function(event) {
-    this.style.display = "none";
+    $(this).style.display = "none";
 });
 
 // Next/previous controls
