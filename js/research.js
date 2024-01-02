@@ -40,10 +40,10 @@ function assignvars(n){
     if (n < 0) {slideIndex = slides.length-1}
 
     // For debugging
-    //console.log(prevSlide);
-    //console.log(n);
-    //console.log(slideIndex);
-    //console.log(leftright);
+    console.log(prevSlide);
+    console.log(n);
+    console.log(slideIndex);
+    console.log(leftright);
 }
 
 function showSlides() { 
@@ -73,7 +73,6 @@ function showSlides() {
         slides[slideIndex].style.left = "100%";
     }
     slides[slideIndex].style.display = "flex";
-    slides[slideIndex].style.top = "-100%";
     console.log(window.getComputedStyle(slides[slideIndex], null).getPropertyValue("left"));          //for debugging
     console.log(window.getComputedStyle(slides[slideIndex], null).getPropertyValue("transition"));    //for debugging
     slides[slideIndex].style.left = "0%";
