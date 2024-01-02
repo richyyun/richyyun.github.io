@@ -36,8 +36,8 @@ function assignvars(n){
     }
     slideIndex = n;
     let slides = document.getElementsByClassName("slide");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
+    if (n >= slides.length) {slideIndex = 0}
+    if (n < 0) {slideIndex = slides.length-1}
 
     console.log(prevSlide);
     console.log(n);
@@ -51,36 +51,37 @@ function showSlides() {
     let dots = document.getElementsByClassName("dot");
     
     // Move previous slide
-    console.log(window.getComputedStyle(slides[prevSlide-1], null).getPropertyValue("left"));             //for debugging
-    console.log(window.getComputedStyle(slides[prevSlide-1], null).getPropertyValue("transition"));       //for debugging
+    console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
+    console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("transition"));       //for debugging
     if (leftright == "left"){
-        slides[prevSlide-1].style.left = "100%";
+        slides[prevSlide].style.left = "100%";
     }
     else {
-        slides[prevSlide-1].style.left = "-100%";
+        slides[prevSlide].style.left = "-100%";
     }
-    slides[prevSlide-1].addEventListener('transitionend', function(event) {
-        slides[prevSlide-1].style.display = "none";
+    slides[prevSlide].addEventListener('transitionend', function(event) {
+        slides[prevSlide].style.display = "none";
     }, false );
-    console.log(window.getComputedStyle(slides[prevSlide-1], null).getPropertyValue("left"));             //for debugging
+    console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
 
     // Move current slide
     if (leftright == "left"){
-        slides[slideIndex-1].style.left = "-100%";
+        slides[slideIndex].style.left = "-100%";
     }
     else {
-        slides[slideIndex-1].style.left = "100%";
+        slides[slideIndex].style.left = "100%";
     }
-    slides[slideIndex-1].style.display = "flex";
-    console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("left"));          //for debugging
-    console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("transition"));    //for debugging
-    slides[slideIndex-1].style.left = "0%";
-    console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("left"));          //for debugging
+    slides[slideIndex].style.display = "flex";
+    slides[slideIndex].style.top = "-100%";
+    console.log(window.getComputedStyle(slides[slideIndex], null).getPropertyValue("left"));          //for debugging
+    console.log(window.getComputedStyle(slides[slideIndex], null).getPropertyValue("transition"));    //for debugging
+    slides[slideIndex].style.left = "0%";
+    console.log(window.getComputedStyle(slides[slideIndex], null).getPropertyValue("left"));          //for debugging
 
     // Relabel dots
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    dots[slideIndex-1].className += " active";
+    dots[slideIndex].className += " active";
 
 }
