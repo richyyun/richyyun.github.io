@@ -5,7 +5,7 @@ let leftright = "left";
 firstSlide();
 
 // Hide element on transition end
-$("slide").on('transitionend', function(event) {
+$(".slide").on('transitionend', function(event) {
     $(this).style.display = "none";
 });
 
