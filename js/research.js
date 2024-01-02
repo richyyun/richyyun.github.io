@@ -45,24 +45,24 @@ function assignvars(n){
     console.log(leftright);
 }
 
-function showSlides() {
+function showSlides() { 
     let i;
     let slides = document.getElementsByClassName("slide");
     let dots = document.getElementsByClassName("dot");
     
     // Move previous slide
-    console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
-    console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("transition"));       //for debugging
+    console.log(window.getComputedStyle(slides[prevSlide-1], null).getPropertyValue("left"));             //for debugging
+    console.log(window.getComputedStyle(slides[prevSlide-1], null).getPropertyValue("transition"));       //for debugging
     if (leftright == "left"){
-        slides[prevSlide].style.left = "100%";
+        slides[prevSlide-1].style.left = "100%";
     }
     else {
-        slides[prevSlide].style.left = "-100%";
+        slides[prevSlide-1].style.left = "-100%";
     }
-    slides[prevSlide].addEventListener('transitionend', function(event) {
-        slides[prevSlide].style.display = "none";
+    slides[prevSlide-1].addEventListener('transitionend', function(event) {
+        slides[prevSlide-1].style.display = "none";
     }, false );
-    console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
+    console.log(window.getComputedStyle(slides[prevSlide-1], null).getPropertyValue("left"));             //for debugging
 
     // Move current slide
     if (leftright == "left"){
@@ -76,11 +76,11 @@ function showSlides() {
     console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("transition"));    //for debugging
     slides[slideIndex-1].style.left = "0%";
     console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("left"));          //for debugging
-    dots[slideIndex-1].className += " active";
 
     // Relabel dots
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
+    dots[slideIndex-1].className += " active";
 
 }
