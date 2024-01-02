@@ -1,17 +1,24 @@
 let slideIndex = 1;
 let prevSlide = 1;
+let leftright = left;
 firstSlide();
 
 // Next/previous controls
 function plusSlides(n) {
-    prevSlide = slideIndex;
-    showSlides(slideIndex += n);
+    if (slideIndex == n){
+        return;
+    }
+    assignvars(slideIndex + n);
+    showSlides();
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
-    prevSlide = slideIndex;
-    showSlides(slideIndex = n);
+    if (slideIndex == n){
+        return;
+    }
+    assignvars(n);
+    showSlides();
 }
 
 function firstSlide(){
@@ -22,24 +29,25 @@ function firstSlide(){
     dots[0].className += " active";
 }
 
-function showSlides(n) {
-    if (n == prevSlide){
-        return;
-    }
-    let i;
-    let slides = document.getElementsByClassName("slide");
-    let dots = document.getElementsByClassName("dot");
-    let leftright;
+function assignvars(n){
+    prevSlide = slideIndex;
     if (n < prevSlide){
         leftright = "left"; // we are moving left, slides are moving right
     }
     else if(n > prevSlide){
         leftright = "right"; // we are moving right, slides are moving left
     }
-    console.log(leftright);
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
+}
 
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("slide");
+    let dots = document.getElementsByClassName("dot");
+    let leftright;
+    
+    console.log(leftright);
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("transition"));       //for debugging
     if (leftright == "left"){
