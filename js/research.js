@@ -48,7 +48,9 @@ function showSlides(n) {
     else {
         slides[prevSlide].style.left = "-100%";
     }
-    //slides[i].style.display = "none";
+    slides[prevSlide].addEventListener('transitionend', function(event) {
+        slides[prevSlide].style.display = "none";
+    }, false );
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
 
     for (i = 0; i < dots.length; i++) {
