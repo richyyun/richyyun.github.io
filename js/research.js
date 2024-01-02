@@ -40,6 +40,8 @@ function showSlides(n) {
     if (n < 1) {slideIndex = slides.length}
     for (i = 0; i < slides.length; i++) {
         if (slides[i].style.display == "flex"){
+            console.log(window.getComputedStyle(slides[i], null).getPropertyValue("left"));
+            onsole.log(window.getComputedStyle(slides[i], null).getPropertyValue("transition"));
             if (leftright == "left"){
                 slides[i].style.left = "100%";
             }
