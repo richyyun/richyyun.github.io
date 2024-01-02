@@ -5,9 +5,6 @@ firstSlide();
 
 // Next/previous controls
 function plusSlides(n) {
-    if (slideIndex == n){
-        return;
-    }
     assignvars(slideIndex + n);
     showSlides();
 }
@@ -37,6 +34,7 @@ function assignvars(n){
     else if(n > prevSlide){
         leftright = "right"; // we are moving right, slides are moving left
     }
+    let slides = document.getElementsByClassName("slide");
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
 }
