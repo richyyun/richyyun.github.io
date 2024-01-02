@@ -62,6 +62,7 @@ function showSlides(n) {
     else {
         slides[slideIndex-1].style.left = "100%";
     }
+    slides[slideIndex-1].style.top = "0%";
     slides[slideIndex-1].style.display = "flex";
     console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("left"));
     console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("transition"));
