@@ -50,6 +50,7 @@ function showSlides(n) {
                 slides[i].style.left = "-100%";
             }
             slides[i].style.display = "none";
+            console.log(window.getComputedStyle(slides[i], null).getPropertyValue("left"));
         }
     }
     for (i = 0; i < dots.length; i++) {
@@ -59,5 +60,6 @@ function showSlides(n) {
     console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("left"));
     console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("transition"));
     slides[slideIndex-1].style.left = "0%";
+    console.log(window.getComputedStyle(slides[i], null).getPropertyValue("left"));
     dots[slideIndex-1].className += " active";
 }
