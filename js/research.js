@@ -39,10 +39,11 @@ function assignvars(n){
     if (n >= slides.length) {slideIndex = 0}
     if (n < 0) {slideIndex = slides.length-1}
 
-    console.log(prevSlide);
-    console.log(n);
-    console.log(slideIndex);
-    console.log(leftright);
+    // For debugging
+    //console.log(prevSlide);
+    //console.log(n);
+    //console.log(slideIndex);
+    //console.log(leftright);
 }
 
 function showSlides() { 
