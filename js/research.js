@@ -43,7 +43,6 @@ function showSlides() {
     let i;
     let slides = document.getElementsByClassName("slide");
     let dots = document.getElementsByClassName("dot");
-    let leftright;
     
     console.log(leftright);
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
