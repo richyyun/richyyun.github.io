@@ -1,6 +1,6 @@
 let slideIndex = 1;
 let prevSlide = 1;
-let leftright = left;
+let leftright = "left";
 firstSlide();
 
 // Next/previous controls
