@@ -60,6 +60,6 @@ function showSlides(n) {
     console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("left"));
     console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("transition"));
     slides[slideIndex-1].style.left = "0%";
-    console.log(window.getComputedStyle(slides[i], null).getPropertyValue("left"));
+    console.log(window.getComputedStyle(slides[slideIndex-1], null).getPropertyValue("left"));
     dots[slideIndex-1].className += " active";
 }
