@@ -39,20 +39,18 @@ function showSlides(n) {
     console.log(leftright);
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        if (slides[i].style.display == "flex"){
-            console.log(window.getComputedStyle(slides[i], null).getPropertyValue("left"));             //for debugging
-            console.log(window.getComputedStyle(slides[i], null).getPropertyValue("transition"));       //for debugging
-            if (leftright == "left"){
-                slides[i].style.left = "100%";
-            }
-            else {
-                slides[i].style.left = "-100%";
-            }
-            //slides[i].style.display = "none";
-            console.log(window.getComputedStyle(slides[i], null).getPropertyValue("left"));             //for debugging
-        }
+
+    console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
+    console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("transition"));       //for debugging
+    if (leftright == "left"){
+        slides[i].style.left = "100%";
     }
+    else {
+        slides[i].style.left = "-100%";
+    }
+    //slides[i].style.display = "none";
+    console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
+
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
