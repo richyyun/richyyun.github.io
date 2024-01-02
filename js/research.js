@@ -1,11 +1,22 @@
+// Define variables and setup first slide
 let slideIndex = 0;
 let prevSlide = 0;
 let leftright = "left";
 firstSlide();
 
+// Hide element on transition end
 $("slide").on('transitionend', function(event) {
     $(this).style.display = "none";
 });
+
+//Setup first slide
+function firstSlide(){
+    let slides = document.getElementsByClassName("slide");
+    let dots = document.getElementsByClassName("dot");
+    slides[0].style.display = "flex";
+    slides[0].style.left = "0%"; // turn off and on animation
+    dots[0].className += " active";
+}
 
 // Next/previous controls
 function plusSlides(n) {
@@ -20,14 +31,6 @@ function currentSlide(n) {
     }
     assignvars(n);
     showSlides();
-}
-
-function firstSlide(){
-    let slides = document.getElementsByClassName("slide");
-    let dots = document.getElementsByClassName("dot");
-    slides[0].style.display = "flex";
-    slides[0].style.left = "0%"; // turn off and on animation
-    dots[0].className += " active";
 }
 
 function assignvars(n){
