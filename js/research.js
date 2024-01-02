@@ -1,5 +1,5 @@
-let slideIndex = 1;
-let prevSlide = 1;
+let slideIndex = 0;
+let prevSlide = 0;
 let leftright = "left";
 firstSlide();
 
@@ -47,10 +47,14 @@ function assignvars(n){
 }
 
 function showSlides() { 
+
     let i;
     let slides = document.getElementsByClassName("slide");
     let dots = document.getElementsByClassName("dot");
-    
+
+    // Stop all ongoing animations
+    $("slide").stop(true, true);
+
     // Move previous slide
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("transition"));       //for debugging
