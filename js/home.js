@@ -1,6 +1,9 @@
 var e = document.getElementById("brainvid");
 e.style.opacity = 0;
 
+$("brainvid").css('opacity', 0).animate( { opacity: 1 }, 'slow')
+
+/*
 var vid = document.getElementById("brainvid");
 
 vid.oncanplaythrough = function() {
@@ -19,3 +22,4 @@ function fade(element) {
         op += op * 0.1 || 0.1;
     }, 100);
 }
+*/
