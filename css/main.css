@@ -16,7 +16,29 @@
     color: var(--text);
 }
 
+/* Background wrapper */
+.bg_wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Background image */
+.bg{
+    width: 100%;
+    z-index: -1;
+}
+
 /* Navigation bar */
+.main_header{
+    position: absolute;
+    top: 0;
+}
+
+/* Top nav */
 .topnav {
     background-color: transparent;
     display: flex;
