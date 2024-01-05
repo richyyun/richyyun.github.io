@@ -6,7 +6,6 @@
     left: 10%;
     display: flex;
     margin: auto;
-    border: solid;
 }
 
 .slide {
@@ -18,7 +17,7 @@
     align-items: center;
     overflow: hidden;
     background-color: rgb(128,128,128,0.5);
-    transition: 0.5s ease;
+    transition: 0.25s ease;
 }
 
 .left{
