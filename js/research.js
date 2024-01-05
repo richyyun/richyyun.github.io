@@ -4,7 +4,7 @@ let prevSlide = 0;
 let leftright = "left";
 firstSlide();
 
-
+/*
 // Hide element on transition end
 $(".slide").each( function(){
     $(this).on('transitionend', function(event) {
@@ -12,6 +12,7 @@ $(".slide").each( function(){
         $(this)[0].style.display = "none";
     });
 })
+*/
     
 //Setup first slide
 function firstSlide(){
