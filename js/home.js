@@ -1,9 +1,12 @@
+var e = document.getElementById("brainvid");
+e.style.opacity = 0;
+
 var vid = document.getElementById("brainvid");
 vid.oncanplaythrough = function() {
     setTimeout(function() {
         var e = document.getElementById('brainvid');
         fade(e);
-    }, 5000);
+    }, 1000);
 };
 
 function fade(element) {
