@@ -1,7 +1,7 @@
 var e = document.getElementById("brainvid");
 e.style.opacity = 0;
 
-$("#brainvid").fadeTo(1000, 1);
+$("#brainvid").fadeTo(2000, 1);
 
 /*
 var vid = document.getElementById("brainvid");
