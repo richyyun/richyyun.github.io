@@ -42,4 +42,4 @@ The website can be found on: [richyyun.github.io](richyyun.github.io)
 ## Lessons learned
 1. Asking the right questions.
 2. Layout is tough.
-   a. When in doubt, wrapper.
+   - When in doubt, wrapper.
