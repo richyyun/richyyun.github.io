@@ -26,7 +26,7 @@
     position: abosolute;
     margin-top: -10vh;
     animation-name: dropdown;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
@@ -96,7 +96,7 @@
 
 .moveleft{
     animation-name: slideleft;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
@@ -104,7 +104,7 @@
 
 .moveright{
     animation-name: slideright;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
