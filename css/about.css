@@ -11,6 +11,7 @@
     left: -13vw;
     background-color: var(--bg);
     color: white;
+    opacity: 0.5;
     padding-left: 25vw;
     border-style: solid;
     border-color: white;
