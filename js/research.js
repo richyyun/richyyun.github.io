@@ -7,6 +7,7 @@ firstSlide();
 // Hide element on transition end
 $(".slide").each( function(){
     $(this).on('transitionend', function(event) {
+        console.log($(this));
         $(this).style.display = "none";
     });
 })
