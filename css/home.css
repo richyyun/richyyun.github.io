@@ -17,6 +17,10 @@
 
 
 /* Top nav */
+.main_header{
+    position: absolute;
+    top: 0;
+}
 /* Override navigation for home */
 .homenav{
     position: abosolute;
