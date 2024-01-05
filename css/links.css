@@ -49,7 +49,7 @@ a{
     width: var(--w);
     height: var(--h);
     object-fit: cover;
-    opacity: 0.6;
+    opacity: 1;
     filter: brightness(1) contrast(1.3);
 }
 
