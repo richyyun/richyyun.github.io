@@ -5,10 +5,12 @@ let leftright = "left";
 firstSlide();
 
 // Hide element on transition end
-$(".slide").on('transitionend', function(event) {
-    $(this).style.display = "none";
-});
-
+$(".slide").each( function(){
+    $(this).on('transitionend', function(event) {
+        $(this).style.display = "none";
+    });
+})
+    
 //Setup first slide
 function firstSlide(){
     let slides = document.getElementsByClassName("slide");

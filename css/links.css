@@ -8,7 +8,7 @@
 .row {
     display: flex;
     position: absolute;
-    top: 12vh;
+    top: 14vh;
     height: 70vh;
     width: 100vw;
     align-items: center;
@@ -49,8 +49,7 @@ a{
     width: var(--w);
     height: var(--h);
     object-fit: cover;
-    opacity: 1;
-    filter: brightness(1) contrast(1.3);
+    filter: brightness(0.75) contrast(1.3);
 }
 
 /* Classes just to make javascript easier */
