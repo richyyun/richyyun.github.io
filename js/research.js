@@ -71,19 +71,21 @@ function showSlides() {
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
     if (leftright == "left"){
         slides[prevSlide].style.left = "100%";
+        console.log("Prev left");
     }
     else {
         slides[prevSlide].style.left = "-100%";
+        console.log("Prev right");
     }
 
     // Move current slide
     if (leftright == "left"){
         slides[slideIndex].style.left = "-100%";
-        console.log('Current left');
+        console.log("Current left");
     }
     else {
         slides[slideIndex].style.left = "100%";
-        console.log('Current right');
+        console.log("Current right");
     }
     slides[slideIndex].style.display = "flex";
     console.log(window.getComputedStyle(slides[slideIndex], null).getPropertyValue("left"));          //for debugging
