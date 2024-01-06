@@ -5,7 +5,7 @@ let leftright = "left";
 firstSlide();
 
 var slides = document.getElementsByClassName("slide");
-for (i=0; i<length(slides); i++){
+for (i=0; i<slides.length; i++){
     slides[i].addEventListener("animationend", function(){
         slides[i].style.display = "none";
     })
