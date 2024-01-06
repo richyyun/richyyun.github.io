@@ -4,6 +4,7 @@ let prevSlide = 0;
 let leftright = "left";
 firstSlide();
 
+// Hide element after transition
 var slides = document.getElementsByClassName("slide");
 for (i=0; i<slides.length; i++){
     slides[i].addEventListener("animationend", function(){
@@ -11,16 +12,6 @@ for (i=0; i<slides.length; i++){
     })
 }
 
-/*
-// Hide element on transition end
-$(".slide").each( function(){
-    $(this).on('transitionend', function(event) {
-        console.log($(this));
-        $(this)[0].style.display = "none";
-    });
-})
-*/
-    
 //Setup first slide
 function firstSlide(){
     let slides = document.getElementsByClassName("slide");
