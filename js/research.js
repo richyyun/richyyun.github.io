@@ -50,10 +50,12 @@ function assignvars(n){
     if (n < 0) {slideIndex = slides.length-1}
 
     // For debugging
+    /*
     console.log(prevSlide);
     console.log(n);
     console.log(slideIndex);
     console.log(leftright);
+    */
 }
 
 function showSlides() { 
@@ -77,6 +79,7 @@ function showSlides() {
     }
 
     // Move current slide
+    console.log(window.getComputedStyle(slides[slideIndex], null).getPropertyValue("display"));          //for debugging
     if (leftright == "left"){
         slides[slideIndex].style.left = "-100%";
         console.log("Current left");
