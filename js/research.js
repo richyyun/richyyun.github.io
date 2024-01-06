@@ -69,27 +69,25 @@ function showSlides() {
 
     // Move previous slide
     console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
-    console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("transition"));       //for debugging
     if (leftright == "left"){
         slides[prevSlide].style.left = "100%";
     }
     else {
         slides[prevSlide].style.left = "-100%";
     }
-    console.log(window.getComputedStyle(slides[prevSlide], null).getPropertyValue("left"));             //for debugging
 
     // Move current slide
     if (leftright == "left"){
         slides[slideIndex].style.left = "-100%";
+        console.log('Current left');
     }
     else {
         slides[slideIndex].style.left = "100%";
+        console.log('Current right');
     }
     slides[slideIndex].style.display = "flex";
     console.log(window.getComputedStyle(slides[slideIndex], null).getPropertyValue("left"));          //for debugging
-    console.log(window.getComputedStyle(slides[slideIndex], null).getPropertyValue("transition"));    //for debugging
     slides[slideIndex].style.left = "0%";
-    console.log(window.getComputedStyle(slides[slideIndex], null).getPropertyValue("left"));          //for debugging
 
     // Relabel dots
     for (i = 0; i < dots.length; i++) {
