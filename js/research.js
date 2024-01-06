@@ -4,6 +4,13 @@ let prevSlide = 0;
 let leftright = "left";
 firstSlide();
 
+var slides = document.getElementsByClassName("slide");
+for (i=0; i<length(slides); i++){
+    slides[i].addEventListener("animationend", function(){
+        slides[i].style.display = "none";
+    })
+}
+
 /*
 // Hide element on transition end
 $(".slide").each( function(){
