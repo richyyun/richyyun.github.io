@@ -61,6 +61,7 @@
     font-size: 1vw;
     letter-spacing: .3vw;
     font-weight: bold;
+    z-index: 10;
 }
 
 .topnav a:hover{
