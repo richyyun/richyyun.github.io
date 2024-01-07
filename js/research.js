@@ -5,6 +5,7 @@ let leftright = "left";
 firstSlide();
 
 // Hide element on transition end
+slides = document.getElementsByClassName("slide");
 for (i=0; i<slides.length; i++){
     slides[i].addEventListener("transitionend", function(){
         slides[i].style.display = "none";
