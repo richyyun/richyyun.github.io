@@ -1,10 +1,10 @@
 /* Animations for the bottom three images 
 TODO: make into functions so it's not so much copy paste. 
 */
-var fadedur = 100;
+var fadedur = 200;
 var fadeopacity = 0.2;
 var scaledur = 100;
-var scalefactor = 1.1;
+var scalefactor = 1.05;
 
 $("#sonera").hover(function () {
         $("#sonera").animate({
