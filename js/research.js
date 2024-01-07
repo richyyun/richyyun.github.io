@@ -4,14 +4,6 @@ let prevSlide = 0;
 let leftright = "left";
 firstSlide();
 
-// Hide element after transition
-var slides = document.getElementsByClassName("slide");
-for (i=0; i<slides.length; i++){
-    slides[i].addEventListener("animationend", function(){
-        slides[i].style.display = "none";
-    })
-}
-
 //Setup first slide
 function firstSlide(){
     let slides = document.getElementsByClassName("slide");
@@ -77,6 +69,9 @@ function showSlides() {
         slides[prevSlide].style.left = "-100%";
         console.log("Prev right");
     }
+    slides[prevSlide].addEventListener("animationend", function(){
+        slides[i].style.display = "none";
+    });
 
     // Move current slide
     console.log(window.getComputedStyle(slides[slideIndex], null).getPropertyValue("display"));          //for debugging
