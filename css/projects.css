@@ -1,0 +1,160 @@
+.container {
+    width: 80%;
+    height: 75vh;
+    position: absolute;
+    top: 10vh;
+    left: 10%;
+    display: flex;
+    margin: auto;
+}
+
+.slide {
+    position: absolute;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    display: none;  /* Hide by default */
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(100,100,100,0.7);
+    transition: 0.25s ease;
+}
+
+.left{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.figure{
+    max-width: 100%;
+    max-height: 90%;
+}
+
+.vid{
+    width: 100%;
+}
+
+.right{
+    max-width: 50%;
+    max-height: 90%
+}
+
+.title{
+    width: 90%;
+    font-size: 1.5em;
+    padding-right: 5%;
+}
+
+.authors{
+    width: 90%;
+}
+
+.keywords{
+    width: 90%;
+}
+
+.abstract{
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.statuswrapper{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.status{
+    font-size: 1.25em;
+    background-color: var(--bgc);
+    color: var(--bg);
+    padding: 0.5em;
+    border-radius: 0.25em;
+}
+
+.linkwrapper{
+    width: 90%;
+    display: flex;
+    padding-top: 1vh;
+    justify-content: center;
+    
+}
+
+.link{
+    width: 12vw;
+    display:flex;
+    text-align: center;
+    padding:1em;
+    background-color: white;
+    color: var(--bg);
+    border-radius: .5em;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+}
+
+/* So text links don't have color and underline*/
+a{
+    text-decoration: none;
+}
+
+.linkimage{
+    width: 5vw;
+    padding-left: 5%;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: grey;
+    opacity: 0.5;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: var(--bg);
+    opacity: 1;
+}
+
+
+
+/* The dots */
+.dotrow{
+    position: absolute;
+    width: 100%;
+    bottom: 10vh;
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 1em;
+    width: 1em;
+    margin: 0 .2em;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
