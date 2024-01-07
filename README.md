@@ -22,14 +22,14 @@ The website can be found on: [richyyun.github.io](richyyun.github.io)
    - Need to see if I can use a photo from the Sonera website.
    ~~- Photo + box with blurb~~
    ~~- Three circles on the bottom with Sonera logo, UW, Duke. When hovered, the image goes to the right and a short blurb of what I did pops up on the right. Link to respective places.~~
-4. Build the research page.
+~~4. Build the research page.~~
+   ~~- Carousel~~
+   ~~- Write summaries~~
+5. Build the projects page.
    ~~- Carousel~~
    - Write summaries
-5. Build the projects page.
-   - Carousel
-   - Write summaries
-6. Build the CV page.
-   - Embedded pdf? 
+~~6. Build the CV page.~~
+   ~~- Embedded pdf?~~
 7. Build the links page.
    ~~- Likely just email, google scholar, linkedin, and github.~~
    - Same animation as about page that reduces opacity of other elements
