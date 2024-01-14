@@ -14,9 +14,9 @@ The website can be found on: [richyyun.github.io](richyyun.github.io)
 ## TODO
 1. ~~Figure out implementation of a menu bar.~~
 2. Build the homepage.
-   ~~- Have the navigation bar drop in on this page~~
-   ~~- Would like to make some graphic for this. Currently thinking name, neuroscientist, with a brain image in the middle.~~
-   ~~- May delve into blender / rendering an animation with lighting using a 3D model of a brain for this as that would be cool to do.~~
+   - ~~Have the navigation bar drop in on this page~~
+   - ~~Would like to make some graphic for this. Currently thinking name, neuroscientist, with a brain image in the middle.~~
+   - ~~May delve into blender / rendering an animation with lighting using a 3D model of a brain for this as that would be cool to do.~~
    - In the future may look into threejs to have the light source be where the mouse is and the brain lighting up from different angles.
 3. Build the about page.
    - Need to see if I can use a photo from the Sonera website.
