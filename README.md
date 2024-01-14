@@ -20,18 +20,18 @@ The website can be found on: [richyyun.github.io](richyyun.github.io)
    - In the future may look into threejs to have the light source be where the mouse is and the brain lighting up from different angles.
 3. Build the about page.
    - Need to see if I can use a photo from the Sonera website.
-   ~~- Photo + box with blurb~~
-   ~~- Three circles on the bottom with Sonera logo, UW, Duke. When hovered, the image goes to the right and a short blurb of what I did pops up on the right. Link to respective places.~~
+   - ~~Photo + box with blurb~~
+   - ~~Three circles on the bottom with Sonera logo, UW, Duke. When hovered, the image goes to the right and a short blurb of what I did pops up on the right. Link to respective places.~~
 4. ~~Build the research page.~~
-   ~~- Carousel~~
-   ~~- Write summaries~~
+   - ~~Carousel~~
+   - ~~Write summaries~~
 5. Build the projects page.
-   ~~- Carousel~~
+   - ~~Carousel~~
    - Write summaries
 6. ~~Build the CV page.~~
-   ~~- Embedded pdf?~~
+   - ~~Embedded pdf?~~
 7. Build the links page.
-   ~~- Likely just email, google scholar, linkedin, and github.~~
+   - ~~Likely just email, google scholar, linkedin, and github.~~
    - Same animation as about page that reduces opacity of other elements
 8. Make things work on mobile / different sized screens.
 9. Fine tune colors, design, and animations.
