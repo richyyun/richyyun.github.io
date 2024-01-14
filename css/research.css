@@ -37,7 +37,6 @@
     align-content: center;
 }
 
-
 .vid{
     width: 100%;
 }
@@ -89,7 +88,6 @@
 }
 
 .link{
-    width: 12vw;
     display:flex;
     text-align: center;
     padding: 0.5em;
