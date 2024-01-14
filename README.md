@@ -32,7 +32,6 @@ The website can be found on: [richyyun.github.io](richyyun.github.io)
    - ~~Embedded pdf?~~
 7. Build the links page.
    - ~~Likely just email, google scholar, linkedin, and github.~~
-   - Same animation as about page that reduces opacity of other elements
 8. Make things work on mobile / different sized screens.
 9. Fine tune colors, design, and animations.
    - Fix favicon - using old one for now
